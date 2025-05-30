@@ -1,0 +1,2066 @@
+0 verbose cli C:\Program Files\node.exe C:\Program Files\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.1
+3 silly config load:file:C:\Program Files\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin
+8 verbose argv "install" "--save-dev" "eslint" "prettier" "eslint-plugin-prettier" "eslint-config-prettier" "eslint-plugin-react" "eslint-plugin-react-hooks" "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "--force"
+9 verbose logfile logs-max:10 dir:C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-05-30T00_16_24_859Z-
+10 verbose logfile C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-05-30T00_16_24_859Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile start cleaning logs, removing 1 files
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 silly logfile done cleaning log files
+15 silly idealTree buildDeps
+16 silly fetch manifest eslint-config-prettier@^10.1.5
+17 silly packumentCache full:https://registry.npmjs.org/eslint-config-prettier cache-miss
+18 http cache https://registry.npmjs.org/eslint-config-prettier 415ms (cache hit)
+19 silly packumentCache full:https://registry.npmjs.org/eslint-config-prettier set size:258499 disposed:false
+20 silly fetch manifest eslint@*
+21 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+22 http cache https://registry.npmjs.org/eslint 9ms (cache hit)
+23 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+24 silly fetch manifest jiti@*
+25 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+26 http cache https://registry.npmjs.org/jiti 7ms (cache hit)
+27 silly packumentCache full:https://registry.npmjs.org/jiti set size:363881 disposed:false
+28 silly fetch manifest eslint-plugin-prettier@^5.4.0
+29 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-prettier cache-miss
+30 http cache https://registry.npmjs.org/eslint-plugin-prettier 6ms (cache hit)
+31 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-prettier set size:163998 disposed:false
+32 silly fetch manifest @types/eslint@>=8.0.0
+33 silly packumentCache full:https://registry.npmjs.org/@types%2feslint cache-miss
+34 http cache https://registry.npmjs.org/@types%2feslint 8ms (cache hit)
+35 silly packumentCache full:https://registry.npmjs.org/@types%2feslint set size:220085 disposed:false
+36 silly fetch manifest prettier@3.5.3
+37 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+38 http cache https://registry.npmjs.org/prettier 6ms (cache hit)
+39 silly packumentCache full:https://registry.npmjs.org/prettier set size:587815 disposed:false
+40 silly fetch manifest eslint-plugin-react@*
+41 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react cache-miss
+42 http cache https://registry.npmjs.org/eslint-plugin-react 6ms (cache hit)
+43 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react set size:646827 disposed:false
+44 silly fetch manifest eslint-plugin-react-hooks@*
+45 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks cache-miss
+46 http cache https://registry.npmjs.org/eslint-plugin-react-hooks 21ms (cache hit)
+47 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks set size:6070198 disposed:false
+48 silly fetch manifest @typescript-eslint/parser@*
+49 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+50 http cache https://registry.npmjs.org/@typescript-eslint%2fparser 66ms (cache hit)
+51 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:13866905 disposed:false
+52 silly fetch manifest typescript@^4.9.5
+53 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+54 http cache https://registry.npmjs.org/typescript 36ms (cache hit)
+55 silly packumentCache full:https://registry.npmjs.org/typescript set size:14238092 disposed:false
+56 silly fetch manifest @typescript-eslint/eslint-plugin@*
+57 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+58 http cache https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 35ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:16112527 disposed:false
+60 silly placeDep ROOT @typescript-eslint/eslint-plugin@8.33.0 CONFLICT for: portfolio@0.1.0 want: *
+61 warn ERESOLVE overriding peer dependency {
+61 warn ERESOLVE   code: 'ERESOLVE',
+61 warn ERESOLVE   edge: {
+61 warn ERESOLVE     type: 'peer',
+61 warn ERESOLVE     name: '@typescript-eslint/parser',
+61 warn ERESOLVE     spec: '^8.33.0',
+61 warn ERESOLVE     error: 'INVALID',
+61 warn ERESOLVE     from: {
+61 warn ERESOLVE       name: '@typescript-eslint/eslint-plugin',
+61 warn ERESOLVE       version: '8.33.0',
+61 warn ERESOLVE       location: 'node_modules/@typescript-eslint/eslint-plugin',
+61 warn ERESOLVE       isWorkspace: false,
+61 warn ERESOLVE       dependents: [Array]
+61 warn ERESOLVE     }
+61 warn ERESOLVE   },
+61 warn ERESOLVE   dep: {
+61 warn ERESOLVE     name: '@typescript-eslint/parser',
+61 warn ERESOLVE     version: '8.33.0',
+61 warn ERESOLVE     whileInstalling: {
+61 warn ERESOLVE       name: 'portfolio',
+61 warn ERESOLVE       version: '0.1.0',
+61 warn ERESOLVE       path: 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio'
+61 warn ERESOLVE     },
+61 warn ERESOLVE     location: 'node_modules/@typescript-eslint/parser',
+61 warn ERESOLVE     isWorkspace: false,
+61 warn ERESOLVE     dependents: [ [Object] ]
+61 warn ERESOLVE   },
+61 warn ERESOLVE   force: true,
+61 warn ERESOLVE   isMine: true,
+61 warn ERESOLVE   strictPeerDeps: false,
+61 warn ERESOLVE   current: {
+61 warn ERESOLVE     name: '@typescript-eslint/parser',
+61 warn ERESOLVE     version: '5.62.0',
+61 warn ERESOLVE     location: 'node_modules/@typescript-eslint/parser',
+61 warn ERESOLVE     isWorkspace: false,
+61 warn ERESOLVE     dependents: [ [Object] ]
+61 warn ERESOLVE   },
+61 warn ERESOLVE   peerConflict: {
+61 warn ERESOLVE     name: '@typescript-eslint/parser',
+61 warn ERESOLVE     version: '5.62.0',
+61 warn ERESOLVE     location: 'node_modules/@typescript-eslint/parser',
+61 warn ERESOLVE     isWorkspace: false,
+61 warn ERESOLVE     dependents: [ [Object] ]
+61 warn ERESOLVE   }
+61 warn ERESOLVE }
+62 silly placeDep ROOT @typescript-eslint/parser@8.33.0 REPLACE for: portfolio@0.1.0 want: *
+63 silly placeDep ROOT eslint@9.27.0 REPLACE for: portfolio@0.1.0 want: *
+64 silly placeDep ROOT eslint-config-prettier@10.1.5 REPLACE for: portfolio@0.1.0 want: ^10.1.5
+65 silly placeDep ROOT eslint-plugin-prettier@5.4.0 REPLACE for: portfolio@0.1.0 want: ^5.4.0
+66 silly placeDep ROOT eslint-plugin-react@7.37.5 REPLACE for: portfolio@0.1.0 want: *
+67 silly placeDep ROOT eslint-plugin-react-hooks@5.2.0 OK for: portfolio@0.1.0 want: *
+68 silly placeDep ROOT prettier@3.5.3 REPLACE for: portfolio@0.1.0 want: 3.5.3
+69 silly fetch manifest @typescript-eslint/parser@^8.33.0
+70 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+71 silly fetch manifest ignore@^7.0.0
+72 silly packumentCache full:https://registry.npmjs.org/ignore cache-miss
+73 silly fetch manifest ts-api-utils@^2.1.0
+74 silly packumentCache full:https://registry.npmjs.org/ts-api-utils cache-miss
+75 silly fetch manifest @typescript-eslint/utils@8.33.0
+76 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+77 silly fetch manifest @typescript-eslint/type-utils@8.33.0
+78 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils cache-miss
+79 silly fetch manifest @typescript-eslint/visitor-keys@8.33.0
+80 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+81 silly fetch manifest @typescript-eslint/scope-manager@8.33.0
+82 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager cache-miss
+83 http cache https://registry.npmjs.org/@typescript-eslint%2fparser 110ms (cache hit)
+84 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:13866905 disposed:false
+85 silly fetch manifest @typescript-eslint/types@8.33.0
+86 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/ts-api-utils 494ms (cache revalidated)
+88 silly packumentCache full:https://registry.npmjs.org/ts-api-utils set size:211978 disposed:false
+89 silly fetch manifest @typescript-eslint/visitor-keys@8.33.0
+90 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fscope-manager 517ms (cache revalidated)
+92 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager set size:11091049 disposed:false
+93 silly fetch manifest @typescript-eslint/typescript-estree@8.33.0
+94 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/ignore 602ms (cache revalidated)
+96 silly packumentCache full:https://registry.npmjs.org/ignore set size:233848 disposed:false
+97 silly fetch manifest @eslint/config-array@^0.20.0
+98 silly packumentCache full:https://registry.npmjs.org/@eslint%2fconfig-array cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 628ms (cache revalidated)
+100 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:10611992 disposed:false
+101 silly fetch manifest @eslint/config-helpers@^0.2.1
+102 silly packumentCache full:https://registry.npmjs.org/@eslint%2fconfig-helpers cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2futils 735ms (cache revalidated)
+104 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:8635729 disposed:false
+105 silly fetch manifest @eslint/core@^0.14.0
+106 silly packumentCache full:https://registry.npmjs.org/@eslint%2fcore cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftype-utils 805ms (cache revalidated)
+108 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils set size:7988500 disposed:false
+109 silly fetch manifest @eslint/eslintrc@^3.3.1
+110 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypes 684ms (cache revalidated)
+112 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes set size:10897670 disposed:false
+113 silly fetch manifest @eslint/js@9.27.0
+114 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 480ms (cache revalidated)
+116 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:10611992 disposed:false
+117 silly fetch manifest @eslint/plugin-kit@^0.3.1
+118 silly packumentCache full:https://registry.npmjs.org/@eslint%2fplugin-kit cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/@eslint%2fconfig-array 475ms (cache revalidated)
+120 silly packumentCache full:https://registry.npmjs.org/@eslint%2fconfig-array set size:42047 disposed:false
+121 silly fetch manifest @humanfs/node@^0.16.6
+122 silly packumentCache full:https://registry.npmjs.org/@humanfs%2fnode cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/@eslint%2fjs 151ms (cache revalidated)
+124 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs set size:108098 disposed:false
+125 silly fetch manifest @humanwhocodes/retry@^0.4.2
+126 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fretry cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/@eslint%2fconfig-helpers 390ms (cache revalidated)
+128 silly packumentCache full:https://registry.npmjs.org/@eslint%2fconfig-helpers set size:16508 disposed:false
+129 silly fetch manifest eslint-scope@^8.3.0
+130 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/@eslint%2fplugin-kit 136ms (cache revalidated)
+132 silly packumentCache full:https://registry.npmjs.org/@eslint%2fplugin-kit set size:40976 disposed:false
+133 silly fetch manifest eslint-visitor-keys@^4.2.0
+134 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/@humanfs%2fnode 148ms (cache revalidated)
+136 silly packumentCache full:https://registry.npmjs.org/@humanfs%2fnode set size:35754 disposed:false
+137 silly fetch manifest espree@^10.3.0
+138 silly packumentCache full:https://registry.npmjs.org/espree cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/eslint-scope 121ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmjs.org/eslint-scope set size:82342 disposed:false
+141 silly fetch manifest file-entry-cache@^8.0.0
+142 silly packumentCache full:https://registry.npmjs.org/file-entry-cache cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 374ms (cache revalidated)
+144 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc set size:156464 disposed:false
+145 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fretry 172ms (cache revalidated)
+146 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fretry set size:42348 disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/file-entry-cache 100ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/file-entry-cache set size:105537 disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys 120ms (cache revalidated)
+150 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys set size:61534 disposed:false
+151 http fetch GET 200 https://registry.npmjs.org/espree 115ms (cache revalidated)
+152 silly packumentCache full:https://registry.npmjs.org/espree set size:311465 disposed:false
+153 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 975ms (cache revalidated)
+154 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree set size:14912413 disposed:false
+155 http fetch GET 200 https://registry.npmjs.org/@eslint%2fcore 877ms (cache revalidated)
+156 silly packumentCache full:https://registry.npmjs.org/@eslint%2fcore set size:34177 disposed:false
+157 silly fetch manifest typescript@>=4.8.4 <5.9.0
+158 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+159 http cache https://registry.npmjs.org/typescript 33ms (cache hit)
+160 silly packumentCache full:https://registry.npmjs.org/typescript set size:14238092 disposed:false
+161 silly fetch manifest eslint@^8.57.0 || ^9.0.0
+162 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+163 http cache https://registry.npmjs.org/eslint 10ms (cache hit)
+164 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+165 silly placeDep ROOT @typescript-eslint/scope-manager@8.33.0 REPLACE for: @typescript-eslint/eslint-plugin@8.33.0 want: 8.33.0
+166 silly placeDep ROOT @typescript-eslint/type-utils@8.33.0 OK for: @typescript-eslint/eslint-plugin@8.33.0 want: 8.33.0
+167 silly placeDep ROOT @typescript-eslint/utils@8.33.0 OK for: @typescript-eslint/eslint-plugin@8.33.0 want: 8.33.0
+168 silly placeDep node_modules/@typescript-eslint/eslint-plugin @typescript-eslint/visitor-keys@8.33.0 OK for: @typescript-eslint/eslint-plugin@8.33.0 want: 8.33.0
+169 silly placeDep node_modules/@typescript-eslint/eslint-plugin ignore@7.0.4 OK for: @typescript-eslint/eslint-plugin@8.33.0 want: ^7.0.0
+170 silly placeDep ROOT ts-api-utils@2.1.0 OK for: @typescript-eslint/eslint-plugin@8.33.0 want: ^2.1.0
+171 silly placeDep node_modules/@typescript-eslint/parser @typescript-eslint/types@8.33.0 OK for: @typescript-eslint/parser@8.33.0 want: 8.33.0
+172 silly placeDep ROOT @typescript-eslint/typescript-estree@8.33.0 REPLACE for: @typescript-eslint/parser@8.33.0 want: 8.33.0
+173 silly placeDep ROOT @typescript-eslint/visitor-keys@8.33.0 OK for: @typescript-eslint/parser@8.33.0 want: 8.33.0
+174 silly fetch manifest minimatch@^9.0.4
+175 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+176 silly fetch manifest @typescript-eslint/tsconfig-utils@8.33.0
+177 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils cache-miss
+178 silly fetch manifest @typescript-eslint/project-service@8.33.0
+179 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fproject-service cache-miss
+180 http fetch GET 200 https://registry.npmjs.org/minimatch 90ms (cache revalidated)
+181 silly packumentCache full:https://registry.npmjs.org/minimatch set size:398328 disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fproject-service 134ms (cache revalidated)
+183 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fproject-service set size:13627 disposed:false
+184 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils 234ms (cache revalidated)
+185 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils set size:13034 disposed:false
+186 silly placeDep ROOT @typescript-eslint/types@8.33.0 OK for: @typescript-eslint/scope-manager@8.33.0 want: 8.33.0
+187 silly placeDep ROOT @typescript-eslint/project-service@8.33.0 OK for: @typescript-eslint/typescript-estree@8.33.0 want: 8.33.0
+188 silly placeDep ROOT @typescript-eslint/tsconfig-utils@8.33.0 OK for: @typescript-eslint/typescript-estree@8.33.0 want: 8.33.0
+189 silly placeDep node_modules/@typescript-eslint/typescript-estree minimatch@9.0.5 OK for: @typescript-eslint/typescript-estree@8.33.0 want: ^9.0.4
+190 silly fetch manifest @typescript-eslint/tsconfig-utils@^8.33.0
+191 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils cache-hit
+192 silly fetch manifest brace-expansion@^2.0.1
+193 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/brace-expansion 120ms (cache revalidated)
+195 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:42345 disposed:false
+196 silly placeDep node_modules/@typescript-eslint/visitor-keys eslint-visitor-keys@4.2.0 OK for: @typescript-eslint/visitor-keys@8.33.0 want: ^4.2.0
+197 silly placeDep ROOT @eslint/config-array@0.20.0 OK for: eslint@9.27.0 want: ^0.20.0
+198 silly placeDep ROOT @eslint/config-helpers@0.2.2 OK for: eslint@9.27.0 want: ^0.2.1
+199 silly placeDep ROOT @eslint/core@0.14.0 OK for: eslint@9.27.0 want: ^0.14.0
+200 silly placeDep ROOT @eslint/eslintrc@3.3.1 OK for: eslint@9.27.0 want: ^3.3.1
+201 silly placeDep ROOT @eslint/js@9.27.0 OK for: eslint@9.27.0 want: 9.27.0
+202 silly placeDep ROOT @eslint/plugin-kit@0.3.1 OK for: eslint@9.27.0 want: ^0.3.1
+203 silly placeDep ROOT @humanfs/node@0.16.6 OK for: eslint@9.27.0 want: ^0.16.6
+204 silly placeDep ROOT @humanwhocodes/retry@0.4.3 OK for: eslint@9.27.0 want: ^0.4.2
+205 silly placeDep ROOT eslint-scope@8.3.0 OK for: eslint@9.27.0 want: ^8.3.0
+206 silly placeDep node_modules/eslint eslint-visitor-keys@4.2.0 OK for: eslint@9.27.0 want: ^4.2.0
+207 silly placeDep ROOT espree@10.3.0 OK for: eslint@9.27.0 want: ^10.3.0
+208 silly placeDep ROOT file-entry-cache@8.0.0 OK for: eslint@9.27.0 want: ^8.0.0
+209 silly fetch manifest @eslint/object-schema@^2.1.6
+210 silly packumentCache full:https://registry.npmjs.org/@eslint%2fobject-schema cache-miss
+211 silly fetch manifest espree@^10.0.1
+212 silly packumentCache full:https://registry.npmjs.org/espree cache-hit
+213 silly fetch manifest globals@^14.0.0
+214 silly packumentCache full:https://registry.npmjs.org/globals cache-miss
+215 silly fetch manifest js-yaml@^4.1.0
+216 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+217 silly fetch manifest @humanwhocodes/retry@^0.3.0
+218 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fretry cache-hit
+219 silly fetch manifest @humanfs/core@^0.19.1
+220 silly packumentCache full:https://registry.npmjs.org/@humanfs%2fcore cache-miss
+221 silly fetch manifest acorn-jsx@^5.3.2
+222 silly packumentCache full:https://registry.npmjs.org/acorn-jsx cache-miss
+223 silly fetch manifest flat-cache@^4.0.0
+224 silly packumentCache full:https://registry.npmjs.org/flat-cache cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/flat-cache 110ms (cache revalidated)
+226 silly packumentCache full:https://registry.npmjs.org/flat-cache set size:137549 disposed:false
+227 http fetch GET 200 https://registry.npmjs.org/acorn-jsx 129ms (cache revalidated)
+228 silly packumentCache full:https://registry.npmjs.org/acorn-jsx set size:71068 disposed:false
+229 http fetch GET 200 https://registry.npmjs.org/js-yaml 150ms (cache revalidated)
+230 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:145975 disposed:false
+231 http fetch GET 200 https://registry.npmjs.org/globals 153ms (cache revalidated)
+232 silly packumentCache full:https://registry.npmjs.org/globals set size:279842 disposed:false
+233 http fetch GET 200 https://registry.npmjs.org/@eslint%2fobject-schema 164ms (cache revalidated)
+234 silly packumentCache full:https://registry.npmjs.org/@eslint%2fobject-schema set size:18641 disposed:false
+235 http fetch GET 200 https://registry.npmjs.org/@humanfs%2fcore 175ms (cache revalidated)
+236 silly packumentCache full:https://registry.npmjs.org/@humanfs%2fcore set size:35472 disposed:false
+237 silly placeDep ROOT @eslint/object-schema@2.1.6 OK for: @eslint/config-array@0.20.0 want: ^2.1.6
+238 silly placeDep ROOT globals@14.0.0 OK for: @eslint/eslintrc@3.3.1 want: ^14.0.0
+239 silly placeDep ROOT js-yaml@4.1.0 OK for: @eslint/eslintrc@3.3.1 want: ^4.1.0
+240 silly fetch manifest argparse@^2.0.1
+241 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/argparse 131ms (cache revalidated)
+243 silly packumentCache full:https://registry.npmjs.org/argparse set size:49266 disposed:false
+244 silly placeDep ROOT @humanfs/core@0.19.1 OK for: @humanfs/node@0.16.6 want: ^0.19.1
+245 silly placeDep node_modules/@humanfs/node @humanwhocodes/retry@0.3.1 OK for: @humanfs/node@0.16.6 want: ^0.3.0
+246 silly fetch manifest acorn@^8.14.0
+247 silly packumentCache full:https://registry.npmjs.org/acorn cache-miss
+248 http fetch GET 200 https://registry.npmjs.org/acorn 83ms (cache revalidated)
+249 silly packumentCache full:https://registry.npmjs.org/acorn set size:375743 disposed:false
+250 silly placeDep ROOT acorn-jsx@5.3.2 OK for: espree@10.3.0 want: ^5.3.2
+251 silly placeDep node_modules/espree eslint-visitor-keys@4.2.0 OK for: espree@10.3.0 want: ^4.2.0
+252 silly placeDep ROOT flat-cache@4.0.1 OK for: file-entry-cache@8.0.0 want: ^4.0.0
+253 silly fetch manifest keyv@^4.5.4
+254 silly packumentCache full:https://registry.npmjs.org/keyv cache-miss
+255 silly fetch manifest flatted@^3.2.9
+256 silly packumentCache full:https://registry.npmjs.org/flatted cache-miss
+257 http fetch GET 200 https://registry.npmjs.org/keyv 115ms (cache revalidated)
+258 silly packumentCache full:https://registry.npmjs.org/keyv set size:203118 disposed:false
+259 http fetch GET 200 https://registry.npmjs.org/flatted 123ms (cache revalidated)
+260 silly packumentCache full:https://registry.npmjs.org/flatted set size:126610 disposed:false
+261 silly placeDep ROOT flatted@3.3.3 OK for: flat-cache@4.0.1 want: ^3.2.9
+262 silly placeDep ROOT keyv@4.5.4 OK for: flat-cache@4.0.1 want: ^4.5.4
+263 silly fetch manifest json-buffer@3.0.1
+264 silly packumentCache full:https://registry.npmjs.org/json-buffer cache-miss
+265 http fetch GET 200 https://registry.npmjs.org/json-buffer 138ms (cache revalidated)
+266 silly packumentCache full:https://registry.npmjs.org/json-buffer set size:23474 disposed:false
+267 silly placeDep ROOT argparse@2.0.1 OK for: js-yaml@4.1.0 want: ^2.0.1
+268 silly placeDep ROOT json-buffer@3.0.1 OK for: keyv@4.5.4 want: 3.0.1
+269 silly fetch manifest eslint@^8.3.0
+270 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+271 http cache https://registry.npmjs.org/eslint 12ms (cache hit)
+272 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+273 silly fetch manifest eslint-config-react-app@^7.0.1
+274 silly packumentCache full:https://registry.npmjs.org/eslint-config-react-app cache-miss
+275 http fetch GET 200 https://registry.npmjs.org/eslint-config-react-app 112ms (cache revalidated)
+276 silly packumentCache full:https://registry.npmjs.org/eslint-config-react-app set size:196719 disposed:false
+277 silly fetch manifest eslint-webpack-plugin@^3.1.1
+278 silly packumentCache full:https://registry.npmjs.org/eslint-webpack-plugin cache-miss
+279 http fetch GET 200 https://registry.npmjs.org/eslint-webpack-plugin 141ms (cache revalidated)
+280 silly packumentCache full:https://registry.npmjs.org/eslint-webpack-plugin set size:137109 disposed:false
+281 silly fetch manifest webpack@^5.64.4
+282 silly packumentCache full:https://registry.npmjs.org/webpack cache-miss
+283 http fetch GET 200 https://registry.npmjs.org/webpack 143ms (cache revalidated)
+284 silly packumentCache full:https://registry.npmjs.org/webpack set size:4819554 disposed:false
+285 silly placeDep node_modules/react-scripts eslint@8.57.1 OK for: react-scripts@5.0.1 want: ^8.3.0
+286 silly placeDep ROOT eslint-config-react-app@7.0.1 OK for: react-scripts@5.0.1 want: ^7.0.1
+287 silly placeDep ROOT eslint@8.57.1 REPLACE for: eslint-config-react-app@7.0.1 want: ^8.0.0
+288 silly placeDep ROOT eslint-webpack-plugin@3.2.0 OK for: react-scripts@5.0.1 want: ^3.1.1
+289 silly fetch manifest espree@^9.6.1
+290 silly packumentCache full:https://registry.npmjs.org/espree cache-hit
+291 silly fetch manifest globals@^13.19.0
+292 silly packumentCache full:https://registry.npmjs.org/globals cache-hit
+293 silly fetch manifest doctrine@^3.0.0
+294 silly packumentCache full:https://registry.npmjs.org/doctrine cache-miss
+295 silly fetch manifest @eslint/js@8.57.1
+296 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs cache-hit
+297 silly fetch manifest eslint-scope@^7.2.2
+298 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-hit
+299 silly fetch manifest is-path-inside@^3.0.3
+300 silly packumentCache full:https://registry.npmjs.org/is-path-inside cache-miss
+301 silly fetch manifest @eslint/eslintrc@^2.1.4
+302 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc cache-hit
+303 silly fetch manifest file-entry-cache@^6.0.1
+304 silly packumentCache full:https://registry.npmjs.org/file-entry-cache cache-hit
+305 silly fetch manifest @ungap/structured-clone@^1.2.0
+306 silly packumentCache full:https://registry.npmjs.org/@ungap%2fstructured-clone cache-miss
+307 silly fetch manifest @humanwhocodes/config-array@^0.13.0
+308 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fconfig-array cache-miss
+309 silly fetch manifest eslint-plugin-jest@^25.3.0
+310 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-jest cache-miss
+311 silly fetch manifest @babel/eslint-parser@^7.16.3
+312 silly packumentCache full:https://registry.npmjs.org/@babel%2feslint-parser cache-miss
+313 silly fetch manifest eslint-plugin-import@^2.25.3
+314 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-import cache-miss
+315 http fetch GET 200 https://registry.npmjs.org/is-path-inside 126ms (cache revalidated)
+316 silly packumentCache full:https://registry.npmjs.org/is-path-inside set size:23585 disposed:false
+317 silly fetch manifest eslint-plugin-flowtype@^8.0.3
+318 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-flowtype cache-miss
+319 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-import 129ms (cache revalidated)
+320 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-import set size:478323 disposed:false
+321 silly fetch manifest eslint-plugin-jsx-a11y@^6.5.1
+322 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-jsx-a11y cache-miss
+323 http fetch GET 200 https://registry.npmjs.org/doctrine 156ms (cache revalidated)
+324 silly packumentCache full:https://registry.npmjs.org/doctrine set size:64052 disposed:false
+325 silly fetch manifest @rushstack/eslint-patch@^1.1.0
+326 silly packumentCache full:https://registry.npmjs.org/@rushstack%2feslint-patch cache-miss
+327 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fconfig-array 155ms (cache revalidated)
+328 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fconfig-array set size:139493 disposed:false
+329 silly fetch manifest @typescript-eslint/parser@^5.5.0
+330 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+331 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-jest 160ms (cache revalidated)
+332 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-jest set size:1551996 disposed:false
+333 silly fetch manifest confusing-browser-globals@^1.0.11
+334 silly packumentCache full:https://registry.npmjs.org/confusing-browser-globals cache-miss
+335 http fetch GET 200 https://registry.npmjs.org/@babel%2feslint-parser 176ms (cache revalidated)
+336 silly packumentCache full:https://registry.npmjs.org/@babel%2feslint-parser set size:199110 disposed:false
+337 silly fetch manifest eslint-plugin-react-hooks@^4.3.0
+338 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks cache-miss
+339 http fetch GET 200 https://registry.npmjs.org/@ungap%2fstructured-clone 188ms (cache revalidated)
+340 silly packumentCache full:https://registry.npmjs.org/@ungap%2fstructured-clone set size:55958 disposed:false
+341 silly fetch manifest eslint-plugin-testing-library@^5.0.1
+342 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-testing-library cache-miss
+343 http cache https://registry.npmjs.org/eslint-plugin-react-hooks 31ms (cache hit)
+344 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks set size:6070198 disposed:false
+345 silly fetch manifest @typescript-eslint/eslint-plugin@^5.5.0
+346 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+347 http cache https://registry.npmjs.org/@typescript-eslint%2fparser 121ms (cache hit)
+348 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:13866905 disposed:false
+349 silly fetch manifest jest-worker@^28.0.2
+350 silly packumentCache full:https://registry.npmjs.org/jest-worker cache-miss
+351 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-flowtype 267ms (cache revalidated)
+352 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-flowtype set size:642432 disposed:false
+353 http fetch GET 200 https://registry.npmjs.org/@rushstack%2feslint-patch 243ms (cache revalidated)
+354 silly packumentCache full:https://registry.npmjs.org/@rushstack%2feslint-patch set size:95979 disposed:false
+355 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-testing-library 211ms (cache revalidated)
+356 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-testing-library set size:749840 disposed:false
+357 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-jsx-a11y 277ms (cache revalidated)
+358 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-jsx-a11y set size:280052 disposed:false
+359 http fetch GET 200 https://registry.npmjs.org/confusing-browser-globals 257ms (cache revalidated)
+360 silly packumentCache full:https://registry.npmjs.org/confusing-browser-globals set size:153636 disposed:false
+361 http cache https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 232ms (cache hit)
+362 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:16112527 disposed:false
+363 http fetch GET 200 https://registry.npmjs.org/jest-worker 274ms (cache revalidated)
+364 silly packumentCache full:https://registry.npmjs.org/jest-worker set size:439595 disposed:false
+365 silly placeDep ROOT @eslint/eslintrc@2.1.4 OK for: eslint@8.57.1 want: ^2.1.4
+366 silly placeDep ROOT @eslint/js@8.57.1 OK for: eslint@8.57.1 want: 8.57.1
+367 silly placeDep ROOT @humanwhocodes/config-array@0.13.0 OK for: eslint@8.57.1 want: ^0.13.0
+368 silly placeDep ROOT @ungap/structured-clone@1.3.0 OK for: eslint@8.57.1 want: ^1.2.0
+369 silly placeDep ROOT doctrine@3.0.0 OK for: eslint@8.57.1 want: ^3.0.0
+370 silly placeDep ROOT eslint-scope@7.2.2 OK for: eslint@8.57.1 want: ^7.2.2
+371 silly placeDep ROOT espree@9.6.1 OK for: eslint@8.57.1 want: ^9.6.1
+372 silly placeDep ROOT file-entry-cache@6.0.1 OK for: eslint@8.57.1 want: ^6.0.1
+373 silly placeDep ROOT globals@13.24.0 OK for: eslint@8.57.1 want: ^13.19.0
+374 silly placeDep ROOT is-path-inside@3.0.3 OK for: eslint@8.57.1 want: ^3.0.3
+375 silly fetch manifest espree@^9.6.0
+376 silly packumentCache full:https://registry.npmjs.org/espree cache-hit
+377 silly fetch manifest @humanwhocodes/object-schema@^2.0.3
+378 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fobject-schema cache-miss
+379 silly fetch manifest flat-cache@^3.0.4
+380 silly packumentCache full:https://registry.npmjs.org/flat-cache cache-hit
+381 silly fetch manifest type-fest@^0.20.2
+382 silly packumentCache full:https://registry.npmjs.org/type-fest cache-miss
+383 http fetch GET 200 https://registry.npmjs.org/type-fest 115ms (cache revalidated)
+384 silly packumentCache full:https://registry.npmjs.org/type-fest set size:526878 disposed:false
+385 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fobject-schema 135ms (cache revalidated)
+386 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fobject-schema set size:30629 disposed:false
+387 silly placeDep ROOT @humanwhocodes/object-schema@2.0.3 OK for: @humanwhocodes/config-array@0.13.0 want: ^2.0.3
+388 silly fetch manifest eslint@^8.0.0
+389 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+390 http cache https://registry.npmjs.org/eslint 9ms (cache hit)
+391 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+392 silly fetch manifest @babel/core@^7.16.0
+393 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+394 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 141ms (cache revalidated)
+395 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:705474 disposed:false
+396 silly fetch manifest @babel/plugin-syntax-flow@^7.14.5
+397 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-flow cache-miss
+398 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-flow 125ms (cache revalidated)
+399 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-flow set size:171700 disposed:false
+400 silly fetch manifest @babel/plugin-transform-react-jsx@^7.14.9
+401 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx cache-miss
+402 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx 157ms (cache revalidated)
+403 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx set size:263783 disposed:false
+404 silly placeDep ROOT @babel/eslint-parser@7.27.1 OK for: eslint-config-react-app@7.0.1 want: ^7.16.3
+405 silly placeDep ROOT @rushstack/eslint-patch@1.11.0 OK for: eslint-config-react-app@7.0.1 want: ^1.1.0
+406 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/eslint-plugin@5.62.0 OK for: eslint-config-react-app@7.0.1 want: ^5.5.0
+407 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/parser@5.62.0 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: ^5.0.0
+408 silly placeDep ROOT confusing-browser-globals@1.0.11 OK for: eslint-config-react-app@7.0.1 want: ^1.0.11
+409 silly placeDep ROOT eslint-plugin-flowtype@8.0.3 OK for: eslint-config-react-app@7.0.1 want: ^8.0.3
+410 silly placeDep ROOT eslint-plugin-import@2.31.0 OK for: eslint-config-react-app@7.0.1 want: ^2.25.3
+411 silly placeDep node_modules/eslint-config-react-app eslint-plugin-jest@25.7.0 OK for: eslint-config-react-app@7.0.1 want: ^25.3.0
+412 silly placeDep ROOT eslint-plugin-jsx-a11y@6.10.2 OK for: eslint-config-react-app@7.0.1 want: ^6.5.1
+413 silly placeDep node_modules/eslint-config-react-app eslint-plugin-react-hooks@4.6.2 OK for: eslint-config-react-app@7.0.1 want: ^4.3.0
+414 silly placeDep ROOT eslint-plugin-testing-library@5.11.1 OK for: eslint-config-react-app@7.0.1 want: ^5.0.1
+415 silly fetch manifest @nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1
+416 silly packumentCache full:https://registry.npmjs.org/@nicolo-ribaudo%2feslint-scope-5-internals cache-miss
+417 silly fetch manifest eslint-visitor-keys@^2.1.0
+418 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys cache-hit
+419 silly fetch manifest semver@^7.3.7
+420 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+421 silly fetch manifest tsutils@^3.21.0
+422 silly packumentCache full:https://registry.npmjs.org/tsutils cache-miss
+423 silly fetch manifest natural-compare-lite@^1.4.0
+424 silly packumentCache full:https://registry.npmjs.org/natural-compare-lite cache-miss
+425 silly fetch manifest @typescript-eslint/utils@5.62.0
+426 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+427 silly fetch manifest @typescript-eslint/type-utils@5.62.0
+428 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils cache-miss
+429 silly fetch manifest @typescript-eslint/scope-manager@5.62.0
+430 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager cache-miss
+431 http cache https://registry.npmjs.org/@typescript-eslint%2ftype-utils 38ms (cache hit)
+432 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils set size:7988500 disposed:false
+433 silly fetch manifest @typescript-eslint/types@5.62.0
+434 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes cache-miss
+435 http cache https://registry.npmjs.org/@typescript-eslint%2futils 102ms (cache hit)
+436 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:8635729 disposed:false
+437 silly fetch manifest @typescript-eslint/scope-manager@5.62.0
+438 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager cache-miss
+439 http cache https://registry.npmjs.org/@typescript-eslint%2fscope-manager 167ms (cache hit)
+440 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager set size:11091049 disposed:false
+441 silly fetch manifest @typescript-eslint/typescript-estree@5.62.0
+442 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree cache-miss
+443 http fetch GET 200 https://registry.npmjs.org/natural-compare-lite 259ms (cache revalidated)
+444 silly packumentCache full:https://registry.npmjs.org/natural-compare-lite set size:39830 disposed:false
+445 silly fetch manifest string-natural-compare@^3.0.1
+446 silly packumentCache full:https://registry.npmjs.org/string-natural-compare cache-miss
+447 http fetch GET 200 https://registry.npmjs.org/semver 261ms (cache revalidated)
+448 silly packumentCache full:https://registry.npmjs.org/semver set size:224186 disposed:false
+449 silly fetch manifest @rtsao/scc@^1.1.0
+450 silly packumentCache full:https://registry.npmjs.org/@rtsao%2fscc cache-miss
+451 http fetch GET 200 https://registry.npmjs.org/tsutils 264ms (cache revalidated)
+452 silly packumentCache full:https://registry.npmjs.org/tsutils set size:248868 disposed:false
+453 silly fetch manifest array.prototype.findlastindex@^1.2.5
+454 silly packumentCache full:https://registry.npmjs.org/array.prototype.findlastindex cache-miss
+455 http cache https://registry.npmjs.org/@typescript-eslint%2fscope-manager 157ms (cache hit)
+456 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager set size:11091049 disposed:false
+457 silly fetch manifest debug@^3.2.7
+458 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+459 http cache https://registry.npmjs.org/@typescript-eslint%2ftypes 333ms (cache hit)
+460 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes set size:10897670 disposed:false
+461 silly fetch manifest doctrine@^2.1.0
+462 silly packumentCache full:https://registry.npmjs.org/doctrine cache-hit
+463 silly fetch manifest eslint-import-resolver-node@^0.3.9
+464 silly packumentCache full:https://registry.npmjs.org/eslint-import-resolver-node cache-miss
+465 http cache https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 259ms (cache hit)
+466 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree set size:14912413 disposed:false
+467 silly fetch manifest eslint-module-utils@^2.12.0
+468 silly packumentCache full:https://registry.npmjs.org/eslint-module-utils cache-miss
+469 http fetch GET 200 https://registry.npmjs.org/@nicolo-ribaudo%2feslint-scope-5-internals 616ms (cache revalidated)
+470 silly packumentCache full:https://registry.npmjs.org/@nicolo-ribaudo%2feslint-scope-5-internals set size:5122 disposed:false
+471 silly fetch manifest object.groupby@^1.0.3
+472 silly packumentCache full:https://registry.npmjs.org/object.groupby cache-miss
+473 http fetch GET 200 https://registry.npmjs.org/array.prototype.findlastindex 442ms (cache revalidated)
+474 silly packumentCache full:https://registry.npmjs.org/array.prototype.findlastindex set size:44828 disposed:false
+475 silly fetch manifest tsconfig-paths@^3.15.0
+476 silly packumentCache full:https://registry.npmjs.org/tsconfig-paths cache-miss
+477 http fetch GET 200 https://registry.npmjs.org/object.groupby 97ms (cache revalidated)
+478 silly packumentCache full:https://registry.npmjs.org/object.groupby set size:15504 disposed:false
+479 silly fetch manifest @typescript-eslint/experimental-utils@^5.0.0
+480 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fexperimental-utils cache-miss
+481 http fetch GET 200 https://registry.npmjs.org/debug 317ms (cache revalidated)
+482 silly packumentCache full:https://registry.npmjs.org/debug set size:193521 disposed:false
+483 silly fetch manifest aria-query@^5.3.2
+484 silly packumentCache full:https://registry.npmjs.org/aria-query cache-miss
+485 http fetch GET 200 https://registry.npmjs.org/eslint-module-utils 117ms (cache revalidated)
+486 silly packumentCache full:https://registry.npmjs.org/eslint-module-utils set size:74422 disposed:false
+487 silly fetch manifest ast-types-flow@^0.0.8
+488 silly packumentCache full:https://registry.npmjs.org/ast-types-flow cache-miss
+489 http fetch GET 200 https://registry.npmjs.org/string-natural-compare 471ms (cache revalidated)
+490 silly packumentCache full:https://registry.npmjs.org/string-natural-compare set size:27902 disposed:false
+491 silly fetch manifest axe-core@^4.10.0
+492 silly packumentCache full:https://registry.npmjs.org/axe-core cache-miss
+493 http fetch GET 200 https://registry.npmjs.org/eslint-import-resolver-node 248ms (cache revalidated)
+494 silly packumentCache full:https://registry.npmjs.org/eslint-import-resolver-node set size:35202 disposed:false
+495 silly fetch manifest axobject-query@^4.1.0
+496 silly packumentCache full:https://registry.npmjs.org/axobject-query cache-miss
+497 http fetch GET 200 https://registry.npmjs.org/@rtsao%2fscc 490ms (cache revalidated)
+498 silly packumentCache full:https://registry.npmjs.org/@rtsao%2fscc set size:6332 disposed:false
+499 silly fetch manifest damerau-levenshtein@^1.0.8
+500 silly packumentCache full:https://registry.npmjs.org/damerau-levenshtein cache-miss
+501 http fetch GET 200 https://registry.npmjs.org/tsconfig-paths 120ms (cache revalidated)
+502 silly packumentCache full:https://registry.npmjs.org/tsconfig-paths set size:192558 disposed:false
+503 silly fetch manifest language-tags@^1.0.9
+504 silly packumentCache full:https://registry.npmjs.org/language-tags cache-miss
+505 http fetch GET 200 https://registry.npmjs.org/aria-query 115ms (cache revalidated)
+506 silly packumentCache full:https://registry.npmjs.org/aria-query set size:98864 disposed:false
+507 silly fetch manifest string.prototype.includes@^2.0.1
+508 silly packumentCache full:https://registry.npmjs.org/string.prototype.includes cache-miss
+509 http fetch GET 200 https://registry.npmjs.org/ast-types-flow 115ms (cache revalidated)
+510 silly packumentCache full:https://registry.npmjs.org/ast-types-flow set size:15144 disposed:false
+511 silly fetch manifest @typescript-eslint/utils@^5.58.0
+512 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+513 http cache https://registry.npmjs.org/@typescript-eslint%2futils 21ms (cache hit)
+514 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:8635729 disposed:false
+515 http fetch GET 200 https://registry.npmjs.org/axobject-query 201ms (cache revalidated)
+516 silly packumentCache full:https://registry.npmjs.org/axobject-query set size:75032 disposed:false
+517 http fetch GET 200 https://registry.npmjs.org/damerau-levenshtein 181ms (cache revalidated)
+518 silly packumentCache full:https://registry.npmjs.org/damerau-levenshtein set size:23390 disposed:false
+519 http fetch GET 200 https://registry.npmjs.org/axe-core 219ms (cache revalidated)
+520 silly packumentCache full:https://registry.npmjs.org/axe-core set size:8600357 disposed:false
+521 http fetch GET 200 https://registry.npmjs.org/language-tags 178ms (cache revalidated)
+522 silly packumentCache full:https://registry.npmjs.org/language-tags set size:38675 disposed:false
+523 http fetch GET 200 https://registry.npmjs.org/string.prototype.includes 174ms (cache revalidated)
+524 silly packumentCache full:https://registry.npmjs.org/string.prototype.includes set size:10217 disposed:false
+525 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fexperimental-utils 452ms (cache revalidated)
+526 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fexperimental-utils set size:15007115 disposed:false
+527 silly placeDep ROOT @nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1 OK for: @babel/eslint-parser@7.27.1 want: 5.1.1-v1
+528 silly placeDep node_modules/@babel/eslint-parser eslint-visitor-keys@2.1.0 OK for: @babel/eslint-parser@7.27.1 want: ^2.1.0
+529 silly fetch manifest eslint-scope@5.1.1
+530 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-hit
+531 silly placeDep node_modules/@nicolo-ribaudo/eslint-scope-5-internals eslint-scope@5.1.1 OK for: @nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1 want: 5.1.1
+532 silly fetch manifest estraverse@^4.1.1
+533 silly packumentCache full:https://registry.npmjs.org/estraverse cache-miss
+534 http fetch GET 200 https://registry.npmjs.org/estraverse 148ms (cache revalidated)
+535 silly packumentCache full:https://registry.npmjs.org/estraverse set size:62412 disposed:false
+536 silly placeDep ROOT string-natural-compare@3.0.1 OK for: eslint-plugin-flowtype@8.0.3 want: ^3.0.1
+537 silly placeDep ROOT @rtsao/scc@1.1.0 OK for: eslint-plugin-import@2.31.0 want: ^1.1.0
+538 silly placeDep ROOT array.prototype.findlastindex@1.2.6 OK for: eslint-plugin-import@2.31.0 want: ^1.2.5
+539 silly placeDep node_modules/eslint-plugin-import debug@3.2.7 OK for: eslint-plugin-import@2.31.0 want: ^3.2.7
+540 silly placeDep node_modules/eslint-plugin-import doctrine@2.1.0 OK for: eslint-plugin-import@2.31.0 want: ^2.1.0
+541 silly placeDep ROOT eslint-import-resolver-node@0.3.9 OK for: eslint-plugin-import@2.31.0 want: ^0.3.9
+542 silly placeDep ROOT eslint-module-utils@2.12.0 OK for: eslint-plugin-import@2.31.0 want: ^2.12.0
+543 silly placeDep ROOT object.groupby@1.0.3 OK for: eslint-plugin-import@2.31.0 want: ^1.0.3
+544 silly placeDep ROOT tsconfig-paths@3.15.0 OK for: eslint-plugin-import@2.31.0 want: ^3.15.0
+545 silly fetch manifest resolve@^1.22.4
+546 silly packumentCache full:https://registry.npmjs.org/resolve cache-miss
+547 silly fetch manifest json5@^1.0.2
+548 silly packumentCache full:https://registry.npmjs.org/json5 cache-miss
+549 silly fetch manifest strip-bom@^3.0.0
+550 silly packumentCache full:https://registry.npmjs.org/strip-bom cache-miss
+551 silly fetch manifest @types/json5@^0.0.29
+552 silly packumentCache full:https://registry.npmjs.org/@types%2fjson5 cache-miss
+553 http fetch GET 200 https://registry.npmjs.org/strip-bom 113ms (cache revalidated)
+554 silly packumentCache full:https://registry.npmjs.org/strip-bom set size:19359 disposed:false
+555 http fetch GET 200 https://registry.npmjs.org/json5 117ms (cache revalidated)
+556 silly packumentCache full:https://registry.npmjs.org/json5 set size:86136 disposed:false
+557 http fetch GET 200 https://registry.npmjs.org/resolve 129ms (cache revalidated)
+558 silly packumentCache full:https://registry.npmjs.org/resolve set size:243806 disposed:false
+559 http fetch GET 200 https://registry.npmjs.org/@types%2fjson5 143ms (cache revalidated)
+560 silly packumentCache full:https://registry.npmjs.org/@types%2fjson5 set size:19581 disposed:false
+561 silly placeDep node_modules/eslint-import-resolver-node debug@3.2.7 OK for: eslint-import-resolver-node@0.3.9 want: ^3.2.7
+562 silly placeDep node_modules/eslint-import-resolver-node resolve@1.22.10 OK for: eslint-import-resolver-node@0.3.9 want: ^1.22.4
+563 silly placeDep node_modules/eslint-module-utils debug@3.2.7 OK for: eslint-module-utils@2.12.0 want: ^3.2.7
+564 silly placeDep node_modules/eslint-plugin-jsx-a11y aria-query@5.3.2 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^5.3.2
+565 silly placeDep ROOT ast-types-flow@0.0.8 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^0.0.8
+566 silly placeDep ROOT axe-core@4.10.3 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^4.10.0
+567 silly placeDep ROOT axobject-query@4.1.0 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^4.1.0
+568 silly placeDep ROOT damerau-levenshtein@1.0.8 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^1.0.8
+569 silly placeDep ROOT language-tags@1.0.9 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^1.0.9
+570 silly placeDep ROOT string.prototype.includes@2.0.1 OK for: eslint-plugin-jsx-a11y@6.10.2 want: ^2.0.1
+571 silly fetch manifest language-subtag-registry@^0.3.20
+572 silly packumentCache full:https://registry.npmjs.org/language-subtag-registry cache-miss
+573 http fetch GET 200 https://registry.npmjs.org/language-subtag-registry 118ms (cache revalidated)
+574 silly packumentCache full:https://registry.npmjs.org/language-subtag-registry set size:44620 disposed:false
+575 silly fetch manifest eslint@^7.5.0 || ^8.0.0
+576 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+577 http cache https://registry.npmjs.org/eslint 20ms (cache hit)
+578 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+579 silly placeDep node_modules/eslint-plugin-testing-library @typescript-eslint/utils@5.62.0 OK for: eslint-plugin-testing-library@5.11.1 want: ^5.58.0
+580 silly fetch manifest eslint-scope@^5.1.1
+581 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-hit
+582 silly fetch manifest @types/semver@^7.3.12
+583 silly packumentCache full:https://registry.npmjs.org/@types%2fsemver cache-miss
+584 http fetch GET 200 https://registry.npmjs.org/@types%2fsemver 110ms (cache revalidated)
+585 silly packumentCache full:https://registry.npmjs.org/@types%2fsemver set size:115721 disposed:false
+586 silly placeDep node_modules/eslint-webpack-plugin jest-worker@28.1.3 OK for: eslint-webpack-plugin@3.2.0 want: ^28.0.2
+587 silly fetch manifest supports-color@^8.0.0
+588 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+589 http fetch GET 200 https://registry.npmjs.org/supports-color 114ms (cache revalidated)
+590 silly packumentCache full:https://registry.npmjs.org/supports-color set size:115466 disposed:false
+591 silly fetch manifest acorn@^8.9.0
+592 silly packumentCache full:https://registry.npmjs.org/acorn cache-hit
+593 silly placeDep ROOT acorn-jsx@5.3.2 OK for: espree@9.6.1 want: ^5.3.2
+594 silly placeDep ROOT flat-cache@3.2.0 OK for: file-entry-cache@6.0.1 want: ^3.0.4
+595 silly fetch manifest keyv@^4.5.3
+596 silly packumentCache full:https://registry.npmjs.org/keyv cache-hit
+597 silly placeDep ROOT flatted@3.3.3 OK for: flat-cache@3.2.0 want: ^3.2.9
+598 silly placeDep ROOT keyv@4.5.4 OK for: flat-cache@3.2.0 want: ^4.5.3
+599 silly placeDep node_modules/globals type-fest@0.20.2 OK for: globals@13.24.0 want: ^0.20.2
+600 silly placeDep ROOT json-buffer@3.0.1 OK for: keyv@4.5.4 want: 3.0.1
+601 silly placeDep ROOT language-subtag-registry@0.3.23 OK for: language-tags@1.0.9 want: ^0.3.20
+602 silly placeDep ROOT @types/json5@0.0.29 OK for: tsconfig-paths@3.15.0 want: ^0.0.29
+603 silly placeDep node_modules/tsconfig-paths json5@1.0.2 OK for: tsconfig-paths@3.15.0 want: ^1.0.2
+604 silly placeDep node_modules/tsconfig-paths strip-bom@3.0.0 OK for: tsconfig-paths@3.15.0 want: ^3.0.0
+605 silly placeDep node_modules/@nicolo-ribaudo/eslint-scope-5-internals estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+606 silly placeDep node_modules/@typescript-eslint/typescript-estree brace-expansion@2.0.1 OK for: minimatch@9.0.5 want: ^2.0.1
+607 silly fetch manifest typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta
+608 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+609 http cache https://registry.npmjs.org/typescript 31ms (cache hit)
+610 silly packumentCache full:https://registry.npmjs.org/typescript set size:14238092 disposed:false
+611 silly fetch manifest eslint@^6.0.0 || ^7.0.0 || ^8.0.0
+612 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+613 http cache https://registry.npmjs.org/eslint 10ms (cache hit)
+614 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+615 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/scope-manager@5.62.0 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: 5.62.0
+616 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/type-utils@5.62.0 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: 5.62.0
+617 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/utils@5.62.0 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: 5.62.0
+618 silly placeDep ROOT natural-compare-lite@1.4.0 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: ^1.4.0
+619 silly placeDep node_modules/eslint-config-react-app semver@7.7.2 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: ^7.3.7
+620 silly placeDep ROOT tsutils@3.21.0 OK for: @typescript-eslint/eslint-plugin@5.62.0 want: ^3.21.0
+621 silly fetch manifest @typescript-eslint/visitor-keys@5.62.0
+622 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+623 silly fetch manifest tslib@^1.8.1
+624 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+625 http cache https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 30ms (cache hit)
+626 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:10611992 disposed:false
+627 http fetch GET 200 https://registry.npmjs.org/tslib 122ms (cache revalidated)
+628 silly packumentCache full:https://registry.npmjs.org/tslib set size:108820 disposed:false
+629 silly placeDep node_modules/tsutils tslib@1.14.1 OK for: tsutils@3.21.0 want: ^1.8.1
+630 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/types@5.62.0 OK for: @typescript-eslint/parser@5.62.0 want: 5.62.0
+631 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/typescript-estree@5.62.0 OK for: @typescript-eslint/parser@5.62.0 want: 5.62.0
+632 silly placeDep node_modules/eslint-config-react-app @typescript-eslint/visitor-keys@5.62.0 OK for: @typescript-eslint/scope-manager@5.62.0 want: 5.62.0
+633 silly placeDep ROOT @types/semver@7.7.0 OK for: @typescript-eslint/utils@5.62.0 want: ^7.3.12
+634 silly placeDep node_modules/eslint-config-react-app eslint-scope@5.1.1 OK for: @typescript-eslint/utils@5.62.0 want: ^5.1.1
+635 silly placeDep ROOT @typescript-eslint/experimental-utils@5.62.0 OK for: eslint-plugin-jest@25.7.0 want: ^5.0.0
+636 silly placeDep node_modules/@typescript-eslint/experimental-utils @typescript-eslint/utils@5.62.0 OK for: @typescript-eslint/experimental-utils@5.62.0 want: 5.62.0
+637 silly placeDep node_modules/@typescript-eslint/experimental-utils @typescript-eslint/scope-manager@5.62.0 OK for: @typescript-eslint/utils@5.62.0 want: 5.62.0
+638 silly placeDep node_modules/@typescript-eslint/experimental-utils @typescript-eslint/types@5.62.0 OK for: @typescript-eslint/utils@5.62.0 want: 5.62.0
+639 silly placeDep node_modules/@typescript-eslint/experimental-utils @typescript-eslint/typescript-estree@5.62.0 OK for: @typescript-eslint/utils@5.62.0 want: 5.62.0
+640 silly placeDep node_modules/@typescript-eslint/experimental-utils eslint-scope@5.1.1 OK for: @typescript-eslint/utils@5.62.0 want: ^5.1.1
+641 silly placeDep node_modules/@typescript-eslint/experimental-utils semver@7.7.2 OK for: @typescript-eslint/utils@5.62.0 want: ^7.3.7
+642 silly placeDep node_modules/@typescript-eslint/experimental-utils @typescript-eslint/visitor-keys@5.62.0 OK for: @typescript-eslint/scope-manager@5.62.0 want: 5.62.0
+643 silly placeDep node_modules/@typescript-eslint/experimental-utils estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+644 silly placeDep node_modules/eslint-config-react-app estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+645 silly placeDep node_modules/eslint-plugin-testing-library @typescript-eslint/scope-manager@5.62.0 OK for: @typescript-eslint/utils@5.62.0 want: 5.62.0
+646 silly placeDep node_modules/eslint-plugin-testing-library @typescript-eslint/types@5.62.0 OK for: @typescript-eslint/utils@5.62.0 want: 5.62.0
+647 silly placeDep node_modules/eslint-plugin-testing-library @typescript-eslint/typescript-estree@5.62.0 OK for: @typescript-eslint/utils@5.62.0 want: 5.62.0
+648 silly placeDep node_modules/eslint-plugin-testing-library eslint-scope@5.1.1 OK for: @typescript-eslint/utils@5.62.0 want: ^5.1.1
+649 silly placeDep node_modules/eslint-plugin-testing-library semver@7.7.2 OK for: @typescript-eslint/utils@5.62.0 want: ^7.3.7
+650 silly placeDep node_modules/eslint-plugin-testing-library @typescript-eslint/visitor-keys@5.62.0 OK for: @typescript-eslint/scope-manager@5.62.0 want: 5.62.0
+651 silly placeDep node_modules/eslint-plugin-testing-library estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+652 silly placeDep node_modules/eslint-webpack-plugin supports-color@8.1.1 OK for: jest-worker@28.1.3 want: ^8.0.0
+653 silly reify mark retired [
+653 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@eslint\\eslintrc\\node_modules\\globals'
+653 silly reify ]
+654 silly reify mark retired [
+654 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@eslint\\eslintrc\\node_modules\\type-fest'
+654 silly reify ]
+655 silly reify mark retired [
+655 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\eslint-plugin'
+655 silly reify ]
+656 silly reify mark retired [
+656 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\parser'
+656 silly reify ]
+657 silly reify mark retired [
+657 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\scope-manager'
+657 silly reify ]
+658 silly reify mark retired [
+658 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\type-utils'
+658 silly reify ]
+659 silly reify mark retired [
+659 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\types'
+659 silly reify ]
+660 silly reify mark retired [
+660 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\typescript-estree'
+660 silly reify ]
+661 silly reify mark retired [
+661 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\utils'
+661 silly reify ]
+662 silly reify mark retired [
+662 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\visitor-keys'
+662 silly reify ]
+663 silly reify mark retired [
+663 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\@eslint\\js'
+663 silly reify ]
+664 silly reify mark retired [
+664 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\globals'
+664 silly reify ]
+665 silly reify mark retired [
+665 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\type-fest'
+665 silly reify ]
+666 silly reify mark retired [
+666 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint-plugin-jest'
+666 silly reify ]
+667 silly reify moves {
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@eslint\\eslintrc\\node_modules\\globals': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@eslint\\eslintrc\\node_modules\\.globals-g8gwzNwg',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@eslint\\eslintrc\\node_modules\\type-fest': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@eslint\\eslintrc\\node_modules\\.type-fest-01s9SMzI',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\eslint-plugin': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.eslint-plugin-LWZG0nmD',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\parser': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.parser-jPdqABLx',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\scope-manager': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.scope-manager-0soUMWam',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\type-utils': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.type-utils-iD064QfM',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\types': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.types-5mY1LA85',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\typescript-estree': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.typescript-estree-cLfbNbSO',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\utils': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.utils-ZNkd2XjP',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\visitor-keys': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\@typescript-eslint\\.visitor-keys-VXyyTR9T',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\@eslint\\js': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\@eslint\\.js-mlgYnscH',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\globals': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\.globals-DOO55goa',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\type-fest': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint\\node_modules\\.type-fest-WQAJQmG2',
+667 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\eslint-plugin-jest': 'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\.eslint-plugin-jest-aS62AZo8'
+667 silly reify }
+668 silly audit bulk request {
+668 silly audit   '@adobe/css-tools': [ '4.4.3' ],
+668 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+668 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+668 silly audit   '@babel/code-frame': [ '7.27.1' ],
+668 silly audit   '@babel/compat-data': [ '7.27.3' ],
+668 silly audit   '@babel/core': [ '7.27.3' ],
+668 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.0', '2.1.0' ],
+668 silly audit   '@babel/generator': [ '7.27.3' ],
+668 silly audit   '@babel/helper-annotate-as-pure': [ '7.27.3' ],
+668 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+668 silly audit   '@babel/helper-create-class-features-plugin': [ '7.27.1' ],
+668 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.27.1' ],
+668 silly audit   '@babel/helper-define-polyfill-provider': [ '0.6.4' ],
+668 silly audit   resolve: [ '1.22.10', '2.0.0-next.5' ],
+668 silly audit   '@babel/helper-member-expression-to-functions': [ '7.27.1' ],
+668 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+668 silly audit   '@babel/helper-module-transforms': [ '7.27.3' ],
+668 silly audit   '@babel/helper-optimise-call-expression': [ '7.27.1' ],
+668 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+668 silly audit   '@babel/helper-remap-async-to-generator': [ '7.27.1' ],
+668 silly audit   '@babel/helper-replace-supers': [ '7.27.1' ],
+668 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.27.1' ],
+668 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+668 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+668 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+668 silly audit   '@babel/helper-wrap-function': [ '7.27.1' ],
+668 silly audit   '@babel/helpers': [ '7.27.3' ],
+668 silly audit   '@babel/parser': [ '7.27.3' ],
+668 silly audit   '@babel/plugin-bugfix-firefox-class-in-computed-class-key': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-bugfix-safari-class-field-initializer-scope': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+668 silly audit   '@babel/plugin-proposal-decorators': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+668 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+668 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.21.0' ],
+668 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+668 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.21.0-placeholder-for-preset-env.2', '7.21.11' ],
+668 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+668 silly audit   '@babel/plugin-syntax-bigint': [ '7.8.3' ],
+668 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+668 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+668 silly audit   '@babel/plugin-syntax-decorators': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-syntax-flow': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+668 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+668 silly audit   '@babel/plugin-syntax-jsx': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+668 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+668 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+668 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+668 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+668 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+668 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+668 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+668 silly audit   '@babel/plugin-syntax-typescript': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-syntax-unicode-sets-regex': [ '7.18.6' ],
+668 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-async-generator-functions': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-block-scoping': [ '7.27.3' ],
+668 silly audit   '@babel/plugin-transform-class-properties': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-class-static-block': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-classes': [ '7.27.1' ],
+668 silly audit   globals: [ '11.12.0', '13.24.0' ],
+668 silly audit   '@babel/plugin-transform-computed-properties': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-destructuring': [ '7.27.3' ],
+668 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-duplicate-named-capturing-groups-regex': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-dynamic-import': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-export-namespace-from': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-flow-strip-types': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-for-of': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-function-name': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-json-strings': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-literals': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-modules-amd': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-modules-umd': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-new-target': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-numeric-separator': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-object-rest-spread': [ '7.27.3' ],
+668 silly audit   '@babel/plugin-transform-object-super': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-optional-chaining': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-parameters': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-private-methods': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-private-property-in-object': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-property-literals': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-react-constant-elements': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-react-display-name': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-react-jsx': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-react-jsx-development': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-react-pure-annotations': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-regenerator': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-regexp-modifiers': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-reserved-words': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-runtime': [ '7.27.3' ],
+668 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-spread': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-template-literals': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-typescript': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-unicode-property-regex': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.27.1' ],
+668 silly audit   '@babel/plugin-transform-unicode-sets-regex': [ '7.27.1' ],
+668 silly audit   '@babel/preset-env': [ '7.27.2' ],
+668 silly audit   '@babel/preset-modules': [ '0.1.6-no-external-plugins' ],
+668 silly audit   '@babel/preset-react': [ '7.27.1' ],
+668 silly audit   '@babel/preset-typescript': [ '7.27.1' ],
+668 silly audit   '@babel/runtime': [ '7.27.3' ],
+668 silly audit   '@babel/template': [ '7.27.2' ],
+668 silly audit   '@babel/traverse': [ '7.27.3' ],
+668 silly audit   '@babel/types': [ '7.27.3' ],
+668 silly audit   '@bcoe/v8-coverage': [ '0.2.3' ],
+668 silly audit   '@csstools/normalize.css': [ '12.1.1' ],
+668 silly audit   '@csstools/postcss-cascade-layers': [ '1.1.1' ],
+668 silly audit   '@csstools/postcss-color-function': [ '1.1.1' ],
+668 silly audit   '@csstools/postcss-font-format-keywords': [ '1.0.1' ],
+668 silly audit   '@csstools/postcss-hwb-function': [ '1.0.2' ],
+668 silly audit   '@csstools/postcss-ic-unit': [ '1.0.1' ],
+668 silly audit   '@csstools/postcss-is-pseudo-class': [ '2.0.7' ],
+668 silly audit   '@csstools/postcss-nested-calc': [ '1.0.0' ],
+668 silly audit   '@csstools/postcss-normalize-display-values': [ '1.0.1' ],
+668 silly audit   '@csstools/postcss-oklab-function': [ '1.1.1' ],
+668 silly audit   '@csstools/postcss-progressive-custom-properties': [ '1.3.0' ],
+668 silly audit   '@csstools/postcss-stepped-value-functions': [ '1.0.1' ],
+668 silly audit   '@csstools/postcss-text-decoration-shorthand': [ '1.0.0' ],
+668 silly audit   '@csstools/postcss-trigonometric-functions': [ '1.0.2' ],
+668 silly audit   '@csstools/postcss-unset-value': [ '1.0.2' ],
+668 silly audit   '@csstools/selector-specificity': [ '2.2.0' ],
+668 silly audit   '@emotion/is-prop-valid': [ '1.2.2' ],
+668 silly audit   '@emotion/memoize': [ '0.8.1' ],
+668 silly audit   '@emotion/unitless': [ '0.8.1' ],
+668 silly audit   '@eslint-community/eslint-utils': [ '4.7.0' ],
+668 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+668 silly audit   'type-fest': [ '0.16.0', '0.21.3', '0.20.2' ],
+668 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+668 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+668 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+668 silly audit   'ansi-styles': [ '6.2.1', '4.3.0', '3.2.1', '5.2.0' ],
+668 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+668 silly audit   'strip-ansi': [ '7.1.0', '6.0.1' ],
+668 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+668 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+668 silly audit   argparse: [ '1.0.10', '2.0.1' ],
+668 silly audit   camelcase: [ '5.3.1', '6.3.0' ],
+668 silly audit   'find-up': [ '4.1.0', '5.0.0', '3.0.0' ],
+668 silly audit   'js-yaml': [ '3.14.1', '4.1.0' ],
+668 silly audit   'locate-path': [ '5.0.0', '6.0.0', '3.0.0' ],
+668 silly audit   'p-limit': [ '2.3.0', '3.1.0' ],
+668 silly audit   'p-locate': [ '4.1.0', '5.0.0', '3.0.0' ],
+668 silly audit   'resolve-from': [ '5.0.0', '4.0.0' ],
+668 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+668 silly audit   '@jest/console': [ '27.5.1', '28.1.3' ],
+668 silly audit   '@jest/core': [ '27.5.1' ],
+668 silly audit   '@jest/environment': [ '27.5.1' ],
+668 silly audit   '@jest/fake-timers': [ '27.5.1' ],
+668 silly audit   '@jest/globals': [ '27.5.1' ],
+668 silly audit   '@jest/reporters': [ '27.5.1' ],
+668 silly audit   'source-map': [ '0.6.1', '0.7.4', '0.8.0-beta.0' ],
+668 silly audit   '@jest/schemas': [ '28.1.3' ],
+668 silly audit   '@jest/source-map': [ '27.5.1' ],
+668 silly audit   '@jest/test-result': [ '27.5.1', '28.1.3' ],
+668 silly audit   '@jest/test-sequencer': [ '27.5.1' ],
+668 silly audit   '@jest/transform': [ '27.5.1' ],
+668 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+668 silly audit   '@jest/types': [ '27.5.1', '28.1.3' ],
+668 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+668 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+668 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+668 silly audit   '@jridgewell/source-map': [ '0.3.6' ],
+668 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+668 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+668 silly audit   '@leichtgewicht/ip-codec': [ '2.0.5' ],
+668 silly audit   'eslint-scope': [ '5.1.1', '7.2.2' ],
+668 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+668 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+668 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+668 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+668 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+668 silly audit   '@pkgr/core': [ '0.2.4' ],
+668 silly audit   '@pmmmwh/react-refresh-webpack-plugin': [ '0.5.16' ],
+668 silly audit   '@rollup/plugin-babel': [ '5.3.1' ],
+668 silly audit   '@rollup/plugin-node-resolve': [ '11.2.1' ],
+668 silly audit   '@rollup/plugin-replace': [ '2.4.2' ],
+668 silly audit   '@rollup/pluginutils': [ '3.1.0' ],
+668 silly audit   '@types/estree': [ '0.0.39', '1.0.7' ],
+668 silly audit   '@sinclair/typebox': [ '0.24.51' ],
+668 silly audit   '@sinonjs/commons': [ '1.8.6' ],
+668 silly audit   '@sinonjs/fake-timers': [ '8.1.0' ],
+668 silly audit   '@surma/rollup-plugin-off-main-thread': [ '2.2.3' ],
+668 silly audit   '@svgr/babel-plugin-add-jsx-attribute': [ '5.4.0' ],
+668 silly audit   '@svgr/babel-plugin-remove-jsx-attribute': [ '5.4.0' ],
+668 silly audit   '@svgr/babel-plugin-remove-jsx-empty-expression': [ '5.0.1' ],
+668 silly audit   '@svgr/babel-plugin-replace-jsx-attribute-value': [ '5.0.1' ],
+668 silly audit   '@svgr/babel-plugin-svg-dynamic-title': [ '5.4.0' ],
+668 silly audit   '@svgr/babel-plugin-svg-em-dimensions': [ '5.4.0' ],
+668 silly audit   '@svgr/babel-plugin-transform-react-native-svg': [ '5.4.0' ],
+668 silly audit   '@svgr/babel-plugin-transform-svg-component': [ '5.5.0' ],
+668 silly audit   '@svgr/babel-preset': [ '5.5.0' ],
+668 silly audit   '@svgr/core': [ '5.5.0' ],
+668 silly audit   '@svgr/hast-util-to-babel-ast': [ '5.5.0' ],
+668 silly audit   '@svgr/plugin-jsx': [ '5.5.0' ],
+668 silly audit   '@svgr/plugin-svgo': [ '5.5.0' ],
+668 silly audit   '@svgr/webpack': [ '5.5.0' ],
+668 silly audit   '@testing-library/dom': [ '10.4.0' ],
+668 silly audit   '@testing-library/jest-dom': [ '6.6.3' ],
+668 silly audit   chalk: [ '3.0.0', '4.1.2', '2.4.2' ],
+668 silly audit   'dom-accessibility-api': [ '0.6.3', '0.5.16' ],
+668 silly audit   '@testing-library/react': [ '16.3.0' ],
+668 silly audit   '@testing-library/user-event': [ '13.5.0' ],
+668 silly audit   '@tootallnate/once': [ '1.1.2' ],
+668 silly audit   '@trysound/sax': [ '0.2.0' ],
+668 silly audit   '@types/aria-query': [ '5.0.4' ],
+668 silly audit   '@types/babel__core': [ '7.20.5' ],
+668 silly audit   '@types/babel__generator': [ '7.27.0' ],
+668 silly audit   '@types/babel__template': [ '7.4.4' ],
+668 silly audit   '@types/babel__traverse': [ '7.20.7' ],
+668 silly audit   '@types/body-parser': [ '1.19.5' ],
+668 silly audit   '@types/bonjour': [ '3.5.13' ],
+668 silly audit   '@types/connect': [ '3.4.38' ],
+668 silly audit   '@types/connect-history-api-fallback': [ '1.5.4' ],
+668 silly audit   '@types/eslint': [ '8.56.12' ],
+668 silly audit   '@types/eslint-scope': [ '3.7.7' ],
+668 silly audit   '@types/express': [ '4.17.22' ],
+668 silly audit   '@types/express-serve-static-core': [ '5.0.6', '4.19.6' ],
+668 silly audit   '@types/graceful-fs': [ '4.1.9' ],
+668 silly audit   '@types/hoist-non-react-statics': [ '3.3.6' ],
+668 silly audit   '@types/html-minifier-terser': [ '6.1.0' ],
+668 silly audit   '@types/http-errors': [ '2.0.4' ],
+668 silly audit   '@types/http-proxy': [ '1.17.16' ],
+668 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+668 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+668 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+668 silly audit   '@types/jest': [ '27.5.2' ],
+668 silly audit   '@types/json-schema': [ '7.0.15' ],
+668 silly audit   '@types/mime': [ '1.3.5' ],
+668 silly audit   '@types/node': [ '16.18.126' ],
+668 silly audit   '@types/node-forge': [ '1.3.11' ],
+668 silly audit   '@types/parse-json': [ '4.0.2' ],
+668 silly audit   '@types/prettier': [ '2.7.3' ],
+668 silly audit   '@types/q': [ '1.5.8' ],
+668 silly audit   '@types/qs': [ '6.14.0' ],
+668 silly audit   '@types/range-parser': [ '1.2.7' ],
+668 silly audit   '@types/react': [ '19.1.6' ],
+668 silly audit   '@types/react-dom': [ '19.1.5' ],
+668 silly audit   '@types/resolve': [ '1.17.1' ],
+668 silly audit   '@types/retry': [ '0.12.0' ],
+668 silly audit   '@types/send': [ '0.17.4' ],
+668 silly audit   '@types/serve-index': [ '1.9.4' ],
+668 silly audit   '@types/serve-static': [ '1.15.7' ],
+668 silly audit   '@types/sockjs': [ '0.3.36' ],
+668 silly audit   '@types/stack-utils': [ '2.0.3' ],
+668 silly audit   '@types/styled-components': [ '5.1.34' ],
+668 silly audit   '@types/stylis': [ '4.2.5' ],
+668 silly audit   '@types/trusted-types': [ '2.0.7' ],
+668 silly audit   '@types/ws': [ '8.18.1' ],
+668 silly audit   '@types/yargs': [ '16.0.9', '17.0.33' ],
+668 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+668 silly audit   semver: [ '7.7.2', '6.3.1' ],
+668 silly audit   '@typescript-eslint/types': [ '8.33.0', '5.62.0' ],
+668 silly audit   '@typescript-eslint/visitor-keys': [ '8.33.0', '5.62.0' ],
+668 silly audit   '@webassemblyjs/ast': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/helper-api-error': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/helper-buffer': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/helper-numbers': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/ieee754': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/leb128': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/utf8': [ '1.13.2' ],
+668 silly audit   '@webassemblyjs/wasm-edit': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/wasm-gen': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/wasm-opt': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/wasm-parser': [ '1.14.1' ],
+668 silly audit   '@webassemblyjs/wast-printer': [ '1.14.1' ],
+668 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+668 silly audit   '@xtuc/long': [ '4.2.2' ],
+668 silly audit   abab: [ '2.0.6' ],
+668 silly audit   accepts: [ '1.3.8' ],
+668 silly audit   negotiator: [ '0.6.3', '0.6.4' ],
+668 silly audit   acorn: [ '8.14.1', '7.4.1' ],
+668 silly audit   'acorn-globals': [ '6.0.0' ],
+668 silly audit   'acorn-walk': [ '7.2.0' ],
+668 silly audit   address: [ '1.2.2' ],
+668 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+668 silly audit   'agent-base': [ '6.0.2' ],
+668 silly audit   ajv: [ '6.12.6', '8.17.1' ],
+668 silly audit   'ajv-formats': [ '2.1.1' ],
+668 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+668 silly audit   'ajv-keywords': [ '3.5.2', '5.1.0' ],
+668 silly audit   'ansi-escapes': [ '4.3.2' ],
+668 silly audit   'ansi-html': [ '0.0.9' ],
+668 silly audit   'ansi-html-community': [ '0.0.8' ],
+668 silly audit   'any-promise': [ '1.3.0' ],
+668 silly audit   anymatch: [ '3.1.3' ],
+668 silly audit   arg: [ '5.0.2' ],
+668 silly audit   'aria-query': [ '5.3.0', '5.3.2' ],
+668 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+668 silly audit   'array-flatten': [ '1.1.1' ],
+668 silly audit   'array-includes': [ '3.1.8' ],
+668 silly audit   'array-union': [ '2.1.0' ],
+668 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+668 silly audit   'array.prototype.flat': [ '1.3.3' ],
+668 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+668 silly audit   'array.prototype.reduce': [ '1.0.8' ],
+668 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+668 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+668 silly audit   asap: [ '2.0.6' ],
+668 silly audit   async: [ '3.2.6' ],
+668 silly audit   'async-function': [ '1.0.0' ],
+668 silly audit   asynckit: [ '0.4.0' ],
+668 silly audit   'at-least-node': [ '1.0.0' ],
+668 silly audit   autoprefixer: [ '10.4.21' ],
+668 silly audit   'available-typed-arrays': [ '1.0.7' ],
+668 silly audit   'babel-jest': [ '27.5.1' ],
+668 silly audit   'babel-loader': [ '8.4.1' ],
+668 silly audit   'schema-utils': [ '2.7.1', '3.3.0', '2.7.0', '4.3.2' ],
+668 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+668 silly audit   'babel-plugin-jest-hoist': [ '27.5.1' ],
+668 silly audit   'babel-plugin-macros': [ '3.1.0' ],
+668 silly audit   'babel-plugin-named-asset-import': [ '0.3.8' ],
+668 silly audit   'babel-plugin-polyfill-corejs2': [ '0.4.13' ],
+668 silly audit   'babel-plugin-polyfill-corejs3': [ '0.11.1' ],
+668 silly audit   'babel-plugin-polyfill-regenerator': [ '0.6.4' ],
+668 silly audit   'babel-plugin-transform-react-remove-prop-types': [ '0.4.24' ],
+668 silly audit   'babel-preset-current-node-syntax': [ '1.1.0' ],
+668 silly audit   'babel-preset-jest': [ '27.5.1' ],
+668 silly audit   'babel-preset-react-app': [ '10.1.0' ],
+668 silly audit   'balanced-match': [ '1.0.2' ],
+668 silly audit   batch: [ '0.6.1' ],
+668 silly audit   bfj: [ '7.1.0' ],
+668 silly audit   'big.js': [ '5.2.2' ],
+668 silly audit   'binary-extensions': [ '2.3.0' ],
+668 silly audit   bluebird: [ '3.7.2' ],
+668 silly audit   'body-parser': [ '1.20.3' ],
+668 silly audit   debug: [ '2.6.9', '4.4.1', '3.2.7' ],
+668 silly audit   'iconv-lite': [ '0.4.24', '0.6.3' ],
+668 silly audit   ms: [ '2.0.0', '2.1.3' ],
+668 silly audit   'bonjour-service': [ '1.3.0' ],
+668 silly audit   boolbase: [ '1.0.0' ],
+668 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+668 silly audit   braces: [ '3.0.3' ],
+668 silly audit   'browser-process-hrtime': [ '1.0.0' ],
+668 silly audit   browserslist: [ '4.25.0' ],
+668 silly audit   bser: [ '2.1.1' ],
+668 silly audit   'buffer-from': [ '1.1.2' ],
+668 silly audit   'builtin-modules': [ '3.3.0' ],
+668 silly audit   bytes: [ '3.1.2' ],
+668 silly audit   'call-bind': [ '1.0.8' ],
+668 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+668 silly audit   'call-bound': [ '1.0.4' ],
+668 silly audit   callsites: [ '3.1.0' ],
+668 silly audit   'camel-case': [ '4.1.2' ],
+668 silly audit   'camelcase-css': [ '2.0.1' ],
+668 silly audit   camelize: [ '1.0.1' ],
+668 silly audit   'caniuse-api': [ '3.0.0' ],
+668 silly audit   'caniuse-lite': [ '1.0.30001720' ],
+668 silly audit   'case-sensitive-paths-webpack-plugin': [ '2.4.0' ],
+668 silly audit   'char-regex': [ '1.0.2', '2.0.2' ],
+668 silly audit   'check-types': [ '11.2.3' ],
+668 silly audit   chokidar: [ '3.6.0' ],
+668 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+668 silly audit   'chrome-trace-event': [ '1.0.4' ],
+668 silly audit   'ci-info': [ '3.9.0' ],
+668 silly audit   'cjs-module-lexer': [ '1.4.3' ],
+668 silly audit   'clean-css': [ '5.3.3' ],
+668 silly audit   cliui: [ '7.0.4' ],
+668 silly audit   co: [ '4.6.0' ],
+668 silly audit   coa: [ '2.0.2' ],
+668 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+668 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+668 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0', '2.0.0' ],
+668 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+668 silly audit   'supports-color': [ '5.5.0', '8.1.1', '7.2.0' ],
+668 silly audit   'collect-v8-coverage': [ '1.0.2' ],
+668 silly audit   colord: [ '2.9.3' ],
+668 silly audit   colorette: [ '2.0.20' ],
+668 silly audit   'combined-stream': [ '1.0.8' ],
+668 silly audit   commander: [ '8.3.0', '7.2.0', '4.1.1', '2.20.3' ],
+668 silly audit   'common-tags': [ '1.8.2' ],
+668 silly audit   commondir: [ '1.0.1' ],
+668 silly audit   compressible: [ '2.0.18' ],
+668 silly audit   compression: [ '1.8.0' ],
+668 silly audit   'concat-map': [ '0.0.1' ],
+668 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+668 silly audit   'content-disposition': [ '0.5.4' ],
+668 silly audit   'content-type': [ '1.0.5' ],
+668 silly audit   cookie: [ '0.7.1' ],
+668 silly audit   'cookie-signature': [ '1.0.6' ],
+668 silly audit   'core-js': [ '3.42.0' ],
+668 silly audit   'core-js-compat': [ '3.42.0' ],
+668 silly audit   'core-js-pure': [ '3.42.0' ],
+668 silly audit   'core-util-is': [ '1.0.3' ],
+668 silly audit   cosmiconfig: [ '7.1.0', '6.0.0' ],
+668 silly audit   'cross-spawn': [ '7.0.6' ],
+668 silly audit   'crypto-random-string': [ '2.0.0' ],
+668 silly audit   'css-blank-pseudo': [ '3.0.3' ],
+668 silly audit   'css-color-keywords': [ '1.0.0' ],
+668 silly audit   'css-declaration-sorter': [ '6.4.1' ],
+668 silly audit   'css-has-pseudo': [ '3.0.4' ],
+668 silly audit   'css-loader': [ '6.11.0' ],
+668 silly audit   'css-minimizer-webpack-plugin': [ '3.4.1' ],
+668 silly audit   'css-prefers-color-scheme': [ '6.0.3' ],
+668 silly audit   'css-select': [ '4.3.0', '2.1.0' ],
+668 silly audit   'css-select-base-adapter': [ '0.1.1' ],
+668 silly audit   'css-to-react-native': [ '3.2.0' ],
+668 silly audit   'css-tree': [ '1.0.0-alpha.37', '1.1.3' ],
+668 silly audit   'css-what': [ '6.1.0', '3.4.2' ],
+668 silly audit   'css.escape': [ '1.5.1' ],
+668 silly audit   cssdb: [ '7.11.2' ],
+668 silly audit   cssesc: [ '3.0.0' ],
+668 silly audit   cssnano: [ '5.1.15' ],
+668 silly audit   'cssnano-preset-default': [ '5.2.14' ],
+668 silly audit   'cssnano-utils': [ '3.1.0' ],
+668 silly audit   csso: [ '4.2.0' ],
+668 silly audit   'mdn-data': [ '2.0.14', '2.0.4' ],
+668 silly audit   cssom: [ '0.4.4', '0.3.8' ],
+668 silly audit   cssstyle: [ '2.3.0' ],
+668 silly audit   csstype: [ '3.1.3' ],
+668 silly audit   'data-urls': [ '2.0.0' ],
+668 silly audit   'data-view-buffer': [ '1.0.2' ],
+668 silly audit   'data-view-byte-length': [ '1.0.2' ],
+668 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+668 silly audit   'decimal.js': [ '10.5.0' ],
+668 silly audit   dedent: [ '0.7.0' ],
+668 silly audit   'deep-is': [ '0.1.4' ],
+668 silly audit   deepmerge: [ '4.3.1' ],
+668 silly audit   'default-gateway': [ '6.0.3' ],
+668 silly audit   'define-data-property': [ '1.1.4' ],
+668 silly audit   'define-lazy-prop': [ '2.0.0' ],
+668 silly audit   'define-properties': [ '1.2.1' ],
+668 silly audit   'delayed-stream': [ '1.0.0' ],
+668 silly audit   depd: [ '2.0.0', '1.1.2' ],
+668 silly audit   dequal: [ '2.0.3' ],
+668 silly audit   destroy: [ '1.2.0' ],
+668 silly audit   'detect-newline': [ '3.1.0' ],
+668 silly audit   'detect-node': [ '2.1.0' ],
+668 silly audit   'detect-port-alt': [ '1.1.6' ],
+668 silly audit   didyoumean: [ '1.2.2' ],
+668 silly audit   'diff-sequences': [ '27.5.1' ],
+668 silly audit   'dir-glob': [ '3.0.1' ],
+668 silly audit   dlv: [ '1.1.3' ],
+668 silly audit   'dns-packet': [ '5.6.1' ],
+668 silly audit   'dom-converter': [ '0.2.0' ],
+668 silly audit   'dom-serializer': [ '1.4.1', '0.2.2' ],
+668 silly audit   domelementtype: [ '2.3.0', '1.3.1' ],
+668 silly audit   domexception: [ '2.0.1' ],
+668 silly audit   'webidl-conversions': [ '5.0.0', '6.1.0', '4.0.2' ],
+668 silly audit   domhandler: [ '4.3.1' ],
+668 silly audit   domutils: [ '2.8.0', '1.7.0' ],
+668 silly audit   'dot-case': [ '3.0.4' ],
+668 silly audit   dotenv: [ '10.0.0' ],
+668 silly audit   'dotenv-expand': [ '5.1.0' ],
+668 silly audit   'dunder-proto': [ '1.0.1' ],
+668 silly audit   duplexer: [ '0.1.2' ],
+668 silly audit   eastasianwidth: [ '0.2.0' ],
+668 silly audit   'ee-first': [ '1.1.1' ],
+668 silly audit   ejs: [ '3.1.10' ],
+668 silly audit   'electron-to-chromium': [ '1.5.161' ],
+668 silly audit   emittery: [ '0.8.1', '0.10.2' ],
+668 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+668 silly audit   'emojis-list': [ '3.0.0' ],
+668 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+668 silly audit   'enhanced-resolve': [ '5.18.1' ],
+668 silly audit   entities: [ '2.2.0' ],
+668 silly audit   'error-ex': [ '1.3.2' ],
+668 silly audit   'error-stack-parser': [ '2.1.4' ],
+668 silly audit   'es-abstract': [ '1.24.0' ],
+668 silly audit   'es-array-method-boxes-properly': [ '1.0.0' ],
+668 silly audit   'es-define-property': [ '1.0.1' ],
+668 silly audit   'es-errors': [ '1.3.0' ],
+668 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+668 silly audit   'es-module-lexer': [ '1.7.0' ],
+668 silly audit   'es-object-atoms': [ '1.1.1' ],
+668 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+668 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+668 silly audit   'es-to-primitive': [ '1.3.0' ],
+668 silly audit   escalade: [ '3.2.0' ],
+668 silly audit   'escape-html': [ '1.0.3' ],
+668 silly audit   escodegen: [ '2.1.0', '1.14.3' ],
+668 silly audit   'jest-worker': [ '27.5.1', '26.6.2', '28.1.3' ],
+668 silly audit   esprima: [ '4.0.1', '1.2.2' ],
+668 silly audit   esquery: [ '1.6.0' ],
+668 silly audit   esrecurse: [ '4.3.0' ],
+668 silly audit   'estree-walker': [ '1.0.1' ],
+668 silly audit   esutils: [ '2.0.3' ],
+668 silly audit   etag: [ '1.8.1' ],
+668 silly audit   eventemitter3: [ '4.0.7' ],
+668 silly audit   events: [ '3.3.0' ],
+668 silly audit   execa: [ '5.1.1' ],
+668 silly audit   exit: [ '0.1.2' ],
+668 silly audit   expect: [ '27.5.1' ],
+668 silly audit   express: [ '4.21.2' ],
+668 silly audit   'fast-deep-equal': [ '3.1.3' ],
+668 silly audit   'fast-diff': [ '1.3.0' ],
+668 silly audit   'fast-glob': [ '3.3.3' ],
+668 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+668 silly audit   'fast-levenshtein': [ '2.0.6' ],
+668 silly audit   'fast-uri': [ '3.0.6' ],
+668 silly audit   fastq: [ '1.19.1' ],
+668 silly audit   'faye-websocket': [ '0.11.4' ],
+668 silly audit   'fb-watchman': [ '2.0.2' ],
+668 silly audit   'file-loader': [ '6.2.0' ],
+668 silly audit   filelist: [ '1.0.4' ],
+668 silly audit   minimatch: [ '5.1.6', '3.1.2', '9.0.5' ],
+668 silly audit   filesize: [ '8.0.7' ],
+668 silly audit   'fill-range': [ '7.1.1' ],
+668 silly audit   finalhandler: [ '1.3.1' ],
+668 silly audit   'find-cache-dir': [ '3.3.2' ],
+668 silly audit   'follow-redirects': [ '1.15.9' ],
+668 silly audit   'for-each': [ '0.3.5' ],
+668 silly audit   'foreground-child': [ '3.3.1' ],
+668 silly audit   'signal-exit': [ '4.1.0', '3.0.7' ],
+668 silly audit   'fork-ts-checker-webpack-plugin': [ '6.5.3' ],
+668 silly audit   'fs-extra': [ '9.1.0', '10.1.0' ],
+668 silly audit   tapable: [ '1.1.3', '2.2.2' ],
+668 silly audit   'form-data': [ '3.0.3' ],
+668 silly audit   forwarded: [ '0.2.0' ],
+668 silly audit   'fraction.js': [ '4.3.7' ],
+668 silly audit   fresh: [ '0.5.2' ],
+668 silly audit   'fs-monkey': [ '1.0.6' ],
+668 silly audit   'fs.realpath': [ '1.0.0' ],
+668 silly audit   fsevents: [ '2.3.3' ],
+668 silly audit   'function-bind': [ '1.1.2' ],
+668 silly audit   'function.prototype.name': [ '1.1.8' ],
+668 silly audit   'functions-have-names': [ '1.2.3' ],
+668 silly audit   gensync: [ '1.0.0-beta.2' ],
+668 silly audit   'get-caller-file': [ '2.0.5' ],
+668 silly audit   'get-intrinsic': [ '1.3.0' ],
+668 silly audit   'get-own-enumerable-property-symbols': [ '3.0.2' ],
+668 silly audit   'get-package-type': [ '0.1.0' ],
+668 silly audit   'get-proto': [ '1.0.1' ],
+668 silly audit   'get-stream': [ '6.0.1' ],
+668 silly audit   'get-symbol-description': [ '1.1.0' ],
+668 silly audit   glob: [ '7.2.3', '10.4.5' ],
+668 silly audit   'glob-to-regexp': [ '0.4.1' ],
+668 silly audit   'global-modules': [ '2.0.0' ],
+668 silly audit   'global-prefix': [ '3.0.0' ],
+668 silly audit   which: [ '1.3.1', '2.0.2' ],
+668 silly audit   globalthis: [ '1.0.4' ],
+668 silly audit   globby: [ '11.1.0' ],
+668 silly audit   gopd: [ '1.2.0' ],
+668 silly audit   'graceful-fs': [ '4.2.11' ],
+668 silly audit   graphemer: [ '1.4.0' ],
+668 silly audit   'gzip-size': [ '6.0.0' ],
+668 silly audit   'handle-thing': [ '2.0.1' ],
+668 silly audit   'harmony-reflect': [ '1.6.2' ],
+668 silly audit   'has-bigints': [ '1.1.0' ],
+668 silly audit   'has-property-descriptors': [ '1.0.2' ],
+668 silly audit   'has-proto': [ '1.2.0' ],
+668 silly audit   'has-symbols': [ '1.1.0' ],
+668 silly audit   'has-tostringtag': [ '1.0.2' ],
+668 silly audit   hasown: [ '2.0.2' ],
+668 silly audit   he: [ '1.2.0' ],
+668 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+668 silly audit   hoopy: [ '0.1.4' ],
+668 silly audit   'hpack.js': [ '2.1.6' ],
+668 silly audit   isarray: [ '1.0.0', '2.0.5' ],
+668 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+668 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+668 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+668 silly audit   'html-encoding-sniffer': [ '2.0.1' ],
+668 silly audit   'html-entities': [ '2.6.0' ],
+668 silly audit   'html-escaper': [ '2.0.2' ],
+668 silly audit   'html-minifier-terser': [ '6.1.0' ],
+668 silly audit   'html-webpack-plugin': [ '5.6.3' ],
+668 silly audit   htmlparser2: [ '6.1.0' ],
+668 silly audit   'http-deceiver': [ '1.2.7' ],
+668 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+668 silly audit   'http-parser-js': [ '0.5.10' ],
+668 silly audit   'http-proxy': [ '1.18.1' ],
+668 silly audit   'http-proxy-agent': [ '4.0.1' ],
+668 silly audit   'http-proxy-middleware': [ '2.0.9' ],
+668 silly audit   'https-proxy-agent': [ '5.0.1' ],
+668 silly audit   'human-signals': [ '2.1.0' ],
+668 silly audit   'icss-utils': [ '5.1.0' ],
+668 silly audit   idb: [ '7.1.1' ],
+668 silly audit   'identity-obj-proxy': [ '3.0.0' ],
+668 silly audit   ignore: [ '5.3.2', '7.0.4' ],
+668 silly audit   immer: [ '9.0.21' ],
+668 silly audit   'import-fresh': [ '3.3.1' ],
+668 silly audit   'import-local': [ '3.2.0' ],
+668 silly audit   imurmurhash: [ '0.1.4' ],
+668 silly audit   'indent-string': [ '4.0.0' ],
+668 silly audit   inflight: [ '1.0.6' ],
+668 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+668 silly audit   ini: [ '1.3.8' ],
+668 silly audit   'internal-slot': [ '1.1.0' ],
+668 silly audit   'ipaddr.js': [ '2.2.0', '1.9.1' ],
+668 silly audit   'is-array-buffer': [ '3.0.5' ],
+668 silly audit   'is-arrayish': [ '0.2.1' ],
+668 silly audit   'is-async-function': [ '2.1.1' ],
+668 silly audit   'is-bigint': [ '1.1.0' ],
+668 silly audit   'is-binary-path': [ '2.1.0' ],
+668 silly audit   'is-boolean-object': [ '1.2.2' ],
+668 silly audit   'is-callable': [ '1.2.7' ],
+668 silly audit   'is-core-module': [ '2.16.1' ],
+668 silly audit   'is-data-view': [ '1.0.2' ],
+668 silly audit   'is-date-object': [ '1.1.0' ],
+668 silly audit   'is-docker': [ '2.2.1' ],
+668 silly audit   'is-extglob': [ '2.1.1' ],
+668 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+668 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+668 silly audit   'is-generator-fn': [ '2.1.0' ],
+668 silly audit   'is-generator-function': [ '1.1.0' ],
+668 silly audit   'is-glob': [ '4.0.3' ],
+668 silly audit   'is-map': [ '2.0.3' ],
+668 silly audit   'is-module': [ '1.0.0' ],
+668 silly audit   'is-negative-zero': [ '2.0.3' ],
+668 silly audit   'is-number': [ '7.0.0' ],
+668 silly audit   'is-number-object': [ '1.1.1' ],
+668 silly audit   'is-obj': [ '1.0.1' ],
+668 silly audit   'is-plain-obj': [ '3.0.0' ],
+668 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+668 silly audit   'is-regex': [ '1.2.1' ],
+668 silly audit   'is-regexp': [ '1.0.0' ],
+668 silly audit   'is-root': [ '2.1.0' ],
+668 silly audit   'is-set': [ '2.0.3' ],
+668 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+668 silly audit   'is-stream': [ '2.0.1' ],
+668 silly audit   'is-string': [ '1.1.1' ],
+668 silly audit   'is-symbol': [ '1.1.1' ],
+668 silly audit   'is-typed-array': [ '1.1.15' ],
+668 silly audit   'is-typedarray': [ '1.0.0' ],
+668 silly audit   'is-weakmap': [ '2.0.2' ],
+668 silly audit   'is-weakref': [ '1.1.1' ],
+668 silly audit   'is-weakset': [ '2.0.4' ],
+668 silly audit   'is-wsl': [ '2.2.0' ],
+668 silly audit   isexe: [ '2.0.0' ],
+668 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+668 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+668 silly audit   'istanbul-lib-report': [ '3.0.1' ],
+668 silly audit   'make-dir': [ '4.0.0', '3.1.0' ],
+668 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+668 silly audit   'istanbul-reports': [ '3.1.7' ],
+668 silly audit   'iterator.prototype': [ '1.1.5' ],
+668 silly audit   jackspeak: [ '3.4.3' ],
+668 silly audit   jake: [ '10.9.2' ],
+668 silly audit   jest: [ '27.5.1' ],
+668 silly audit   'jest-changed-files': [ '27.5.1' ],
+668 silly audit   'jest-circus': [ '27.5.1' ],
+668 silly audit   'jest-cli': [ '27.5.1' ],
+668 silly audit   'jest-config': [ '27.5.1' ],
+668 silly audit   'jest-diff': [ '27.5.1' ],
+668 silly audit   'jest-docblock': [ '27.5.1' ],
+668 silly audit   'jest-each': [ '27.5.1' ],
+668 silly audit   'jest-environment-jsdom': [ '27.5.1' ],
+668 silly audit   'jest-environment-node': [ '27.5.1' ],
+668 silly audit   'jest-get-type': [ '27.5.1' ],
+668 silly audit   'jest-haste-map': [ '27.5.1' ],
+668 silly audit   'jest-jasmine2': [ '27.5.1' ],
+668 silly audit   'jest-leak-detector': [ '27.5.1' ],
+668 silly audit   'jest-matcher-utils': [ '27.5.1' ],
+668 silly audit   'jest-message-util': [ '27.5.1', '28.1.3' ],
+668 silly audit   'jest-mock': [ '27.5.1' ],
+668 silly audit   'jest-pnp-resolver': [ '1.2.3' ],
+668 silly audit   'jest-regex-util': [ '27.5.1', '28.0.2' ],
+668 silly audit   'jest-resolve': [ '27.5.1' ],
+668 silly audit   'jest-resolve-dependencies': [ '27.5.1' ],
+668 silly audit   'jest-runner': [ '27.5.1' ],
+668 silly audit   'jest-runtime': [ '27.5.1' ],
+668 silly audit   'jest-serializer': [ '27.5.1' ],
+668 silly audit   'jest-snapshot': [ '27.5.1' ],
+668 silly audit   'jest-util': [ '27.5.1', '28.1.3' ],
+668 silly audit   'jest-validate': [ '27.5.1' ],
+668 silly audit   'jest-watch-typeahead': [ '1.1.0' ],
+668 silly audit   slash: [ '3.0.0', '4.0.0' ],
+668 silly audit   'jest-watcher': [ '28.1.3', '27.5.1' ],
+668 silly audit   'string-length': [ '4.0.2', '5.0.1' ],
+668 silly audit   'pretty-format': [ '28.1.3', '27.5.1' ],
+668 silly audit   'react-is': [ '18.3.1', '17.0.2', '16.13.1' ],
+668 silly audit   jiti: [ '1.21.7' ],
+668 silly audit   'js-tokens': [ '4.0.0' ],
+668 silly audit   jsdom: [ '16.7.0' ],
+668 silly audit   jsesc: [ '3.1.0', '3.0.2' ],
+668 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+668 silly audit   'json-schema': [ '0.4.0' ],
+668 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+668 silly audit   json5: [ '2.2.3', '1.0.2' ],
+668 silly audit   jsonfile: [ '6.1.0' ],
+668 silly audit   jsonpath: [ '1.1.1' ],
+668 silly audit   jsonpointer: [ '5.0.1' ],
+668 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+668 silly audit   'kind-of': [ '6.0.3' ],
+668 silly audit   kleur: [ '3.0.3' ],
+668 silly audit   klona: [ '2.0.6' ],
+668 silly audit   'launch-editor': [ '2.10.0' ],
+668 silly audit   leven: [ '3.1.0' ],
+668 silly audit   levn: [ '0.4.1', '0.3.0' ],
+668 silly audit   lilconfig: [ '2.1.0', '3.1.3' ],
+668 silly audit   'lines-and-columns': [ '1.2.4' ],
+668 silly audit   'loader-runner': [ '4.3.0' ],
+668 silly audit   'loader-utils': [ '2.0.4', '3.3.1' ],
+668 silly audit   lodash: [ '4.17.21' ],
+668 silly audit   'lodash.debounce': [ '4.0.8' ],
+668 silly audit   'lodash.memoize': [ '4.1.2' ],
+668 silly audit   'lodash.merge': [ '4.6.2' ],
+668 silly audit   'lodash.sortby': [ '4.7.0' ],
+668 silly audit   'lodash.uniq': [ '4.5.0' ],
+668 silly audit   'loose-envify': [ '1.4.0' ],
+668 silly audit   'lower-case': [ '2.0.2' ],
+668 silly audit   'lru-cache': [ '5.1.1', '10.4.3' ],
+668 silly audit   'lz-string': [ '1.5.0' ],
+668 silly audit   'magic-string': [ '0.25.9' ],
+668 silly audit   makeerror: [ '1.0.12' ],
+668 silly audit   'math-intrinsics': [ '1.1.0' ],
+668 silly audit   'media-typer': [ '0.3.0' ],
+668 silly audit   memfs: [ '3.5.3' ],
+668 silly audit   'merge-descriptors': [ '1.0.3' ],
+668 silly audit   'merge-stream': [ '2.0.0' ],
+668 silly audit   merge2: [ '1.4.1' ],
+668 silly audit   methods: [ '1.1.2' ],
+668 silly audit   micromatch: [ '4.0.8' ],
+668 silly audit   mime: [ '1.6.0' ],
+668 silly audit   'mime-db': [ '1.52.0' ],
+668 silly audit   'mime-types': [ '2.1.35' ],
+668 silly audit   'mimic-fn': [ '2.1.0' ],
+668 silly audit   'min-indent': [ '1.0.1' ],
+668 silly audit   'mini-css-extract-plugin': [ '2.9.2' ],
+668 silly audit   'minimalistic-assert': [ '1.0.1' ],
+668 silly audit   minimist: [ '1.2.8' ],
+668 silly audit   minipass: [ '7.1.2' ],
+668 silly audit   mkdirp: [ '0.5.6' ],
+668 silly audit   'multicast-dns': [ '7.2.5' ],
+668 silly audit   mz: [ '2.7.0' ],
+668 silly audit   nanoid: [ '3.3.11' ],
+668 silly audit   'natural-compare': [ '1.4.0' ],
+668 silly audit   'neo-async': [ '2.6.2' ],
+668 silly audit   'no-case': [ '3.0.4' ],
+668 silly audit   'node-forge': [ '1.3.1' ],
+668 silly audit   'node-int64': [ '0.4.0' ],
+668 silly audit   'node-releases': [ '2.0.19' ],
+668 silly audit   'normalize-path': [ '3.0.0' ],
+668 silly audit   'normalize-range': [ '0.1.2' ],
+668 silly audit   'normalize-url': [ '6.1.0' ],
+668 silly audit   'npm-run-path': [ '4.0.1' ],
+668 silly audit   'nth-check': [ '2.1.1', '1.0.2' ],
+668 silly audit   nwsapi: [ '2.2.20' ],
+668 silly audit   'object-assign': [ '4.1.1' ],
+668 silly audit   'object-hash': [ '3.0.0' ],
+668 silly audit   'object-inspect': [ '1.13.4' ],
+668 silly audit   'object-keys': [ '1.1.1' ],
+668 silly audit   'object.assign': [ '4.1.7' ],
+668 silly audit   'object.entries': [ '1.1.9' ],
+668 silly audit   'object.fromentries': [ '2.0.8' ],
+668 silly audit   'object.getownpropertydescriptors': [ '2.1.8' ],
+668 silly audit   'object.values': [ '1.2.1' ],
+668 silly audit   obuf: [ '1.1.2' ],
+668 silly audit   'on-finished': [ '2.4.1' ],
+668 silly audit   'on-headers': [ '1.0.2' ],
+668 silly audit   once: [ '1.4.0' ],
+668 silly audit   onetime: [ '5.1.2' ],
+668 silly audit   open: [ '8.4.2' ],
+668 silly audit   optionator: [ '0.9.4', '0.8.3' ],
+668 silly audit   'own-keys': [ '1.0.1' ],
+668 silly audit   'p-retry': [ '4.6.2' ],
+668 silly audit   'p-try': [ '2.2.0' ],
+668 silly audit   'package-json-from-dist': [ '1.0.1' ],
+668 silly audit   'param-case': [ '3.0.4' ],
+668 silly audit   'parent-module': [ '1.0.1' ],
+668 silly audit   'parse-json': [ '5.2.0' ],
+668 silly audit   parse5: [ '6.0.1' ],
+668 silly audit   parseurl: [ '1.3.3' ],
+668 silly audit   'pascal-case': [ '3.1.2' ],
+668 silly audit   'path-exists': [ '4.0.0', '3.0.0' ],
+668 silly audit   'path-is-absolute': [ '1.0.1' ],
+668 silly audit   'path-key': [ '3.1.1' ],
+668 silly audit   'path-parse': [ '1.0.7' ],
+668 silly audit   'path-scurry': [ '1.11.1' ],
+668 silly audit   'path-to-regexp': [ '0.1.12' ],
+668 silly audit   'path-type': [ '4.0.0' ],
+668 silly audit   'performance-now': [ '2.1.0' ],
+668 silly audit   picocolors: [ '1.1.1', '0.2.1' ],
+668 silly audit   picomatch: [ '2.3.1' ],
+668 silly audit   pify: [ '2.3.0' ],
+668 silly audit   pirates: [ '4.0.7' ],
+668 silly audit   'pkg-dir': [ '4.2.0' ],
+668 silly audit   'pkg-up': [ '3.1.0' ],
+668 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+668 silly audit   postcss: [ '8.5.4', '7.0.39', '8.4.49' ],
+668 silly audit   'postcss-attribute-case-insensitive': [ '5.0.2' ],
+668 silly audit   'postcss-browser-comments': [ '4.0.0' ],
+668 silly audit   'postcss-calc': [ '8.2.4' ],
+668 silly audit   'postcss-clamp': [ '4.1.0' ],
+668 silly audit   'postcss-color-functional-notation': [ '4.2.4' ],
+668 silly audit   'postcss-color-hex-alpha': [ '8.0.4' ],
+668 silly audit   'postcss-color-rebeccapurple': [ '7.1.1' ],
+668 silly audit   'postcss-colormin': [ '5.3.1' ],
+668 silly audit   'postcss-convert-values': [ '5.1.3' ],
+668 silly audit   'postcss-custom-media': [ '8.0.2' ],
+668 silly audit   'postcss-custom-properties': [ '12.1.11' ],
+668 silly audit   'postcss-custom-selectors': [ '6.0.3' ],
+668 silly audit   'postcss-dir-pseudo-class': [ '6.0.5' ],
+668 silly audit   'postcss-discard-comments': [ '5.1.2' ],
+668 silly audit   'postcss-discard-duplicates': [ '5.1.0' ],
+668 silly audit   'postcss-discard-empty': [ '5.1.1' ],
+668 silly audit   'postcss-discard-overridden': [ '5.1.0' ],
+668 silly audit   'postcss-double-position-gradients': [ '3.1.2' ],
+668 silly audit   'postcss-env-function': [ '4.0.6' ],
+668 silly audit   'postcss-flexbugs-fixes': [ '5.0.2' ],
+668 silly audit   'postcss-focus-visible': [ '6.0.4' ],
+668 silly audit   'postcss-focus-within': [ '5.0.4' ],
+668 silly audit   'postcss-font-variant': [ '5.0.0' ],
+668 silly audit   'postcss-gap-properties': [ '3.0.5' ],
+668 silly audit   'postcss-image-set-function': [ '4.0.7' ],
+668 silly audit   'postcss-import': [ '15.1.0' ],
+668 silly audit   'postcss-initial': [ '4.0.1' ],
+668 silly audit   'postcss-js': [ '4.0.1' ],
+668 silly audit   'postcss-lab-function': [ '4.2.1' ],
+668 silly audit   'postcss-load-config': [ '4.0.2' ],
+668 silly audit   yaml: [ '2.8.0', '1.10.2' ],
+668 silly audit   'postcss-loader': [ '6.2.1' ],
+668 silly audit   'postcss-logical': [ '5.0.4' ],
+668 silly audit   'postcss-media-minmax': [ '5.0.0' ],
+668 silly audit   'postcss-merge-longhand': [ '5.1.7' ],
+668 silly audit   'postcss-merge-rules': [ '5.1.4' ],
+668 silly audit   'postcss-minify-font-values': [ '5.1.0' ],
+668 silly audit   'postcss-minify-gradients': [ '5.1.1' ],
+668 silly audit   'postcss-minify-params': [ '5.1.4' ],
+668 silly audit   'postcss-minify-selectors': [ '5.2.1' ],
+668 silly audit   'postcss-modules-extract-imports': [ '3.1.0' ],
+668 silly audit   'postcss-modules-local-by-default': [ '4.2.0' ],
+668 silly audit   'postcss-selector-parser': [ '7.1.0', '6.1.2' ],
+668 silly audit   'postcss-modules-scope': [ '3.2.1' ],
+668 silly audit   'postcss-modules-values': [ '4.0.0' ],
+668 silly audit   'postcss-nested': [ '6.2.0' ],
+668 silly audit   'postcss-nesting': [ '10.2.0' ],
+668 silly audit   'postcss-normalize': [ '10.0.1' ],
+668 silly audit   'postcss-normalize-charset': [ '5.1.0' ],
+668 silly audit   'postcss-normalize-display-values': [ '5.1.0' ],
+668 silly audit   'postcss-normalize-positions': [ '5.1.1' ],
+668 silly audit   'postcss-normalize-repeat-style': [ '5.1.1' ],
+668 silly audit   'postcss-normalize-string': [ '5.1.0' ],
+668 silly audit   'postcss-normalize-timing-functions': [ '5.1.0' ],
+668 silly audit   'postcss-normalize-unicode': [ '5.1.1' ],
+668 silly audit   'postcss-normalize-url': [ '5.1.0' ],
+668 silly audit   'postcss-normalize-whitespace': [ '5.1.1' ],
+668 silly audit   'postcss-opacity-percentage': [ '1.1.3' ],
+668 silly audit   'postcss-ordered-values': [ '5.1.3' ],
+668 silly audit   'postcss-overflow-shorthand': [ '3.0.4' ],
+668 silly audit   'postcss-page-break': [ '3.0.4' ],
+668 silly audit   'postcss-place': [ '7.0.5' ],
+668 silly audit   'postcss-preset-env': [ '7.8.3' ],
+668 silly audit   'postcss-pseudo-class-any-link': [ '7.1.6' ],
+668 silly audit   'postcss-reduce-initial': [ '5.1.2' ],
+668 silly audit   'postcss-reduce-transforms': [ '5.1.0' ],
+668 silly audit   'postcss-replace-overflow-wrap': [ '4.0.0' ],
+668 silly audit   'postcss-selector-not': [ '6.0.1' ],
+668 silly audit   'postcss-svgo': [ '5.1.0' ],
+668 silly audit   svgo: [ '2.8.0', '1.3.2' ],
+668 silly audit   'postcss-unique-selectors': [ '5.1.1' ],
+668 silly audit   'postcss-value-parser': [ '4.2.0' ],
+668 silly audit   'prelude-ls': [ '1.2.1', '1.1.2' ],
+668 silly audit   'prettier-linter-helpers': [ '1.0.0' ],
+668 silly audit   'pretty-bytes': [ '5.6.0' ],
+668 silly audit   'pretty-error': [ '4.0.0' ],
+668 silly audit   'process-nextick-args': [ '2.0.1' ],
+668 silly audit   promise: [ '8.3.0' ],
+668 silly audit   prompts: [ '2.4.2' ],
+668 silly audit   'prop-types': [ '15.8.1' ],
+668 silly audit   'proxy-addr': [ '2.0.7' ],
+668 silly audit   psl: [ '1.15.0' ],
+668 silly audit   punycode: [ '2.3.1' ],
+668 silly audit   q: [ '1.5.1' ],
+668 silly audit   qs: [ '6.13.0' ],
+668 silly audit   querystringify: [ '2.2.0' ],
+668 silly audit   'queue-microtask': [ '1.2.3' ],
+668 silly audit   raf: [ '3.4.1' ],
+668 silly audit   randombytes: [ '2.1.0' ],
+668 silly audit   'range-parser': [ '1.2.1' ],
+668 silly audit   'raw-body': [ '2.5.2' ],
+668 silly audit   react: [ '18.2.0' ],
+668 silly audit   'react-app-polyfill': [ '3.0.0' ],
+668 silly audit   'react-dev-utils': [ '12.0.1' ],
+668 silly audit   'react-dom': [ '18.2.0' ],
+668 silly audit   'react-error-overlay': [ '6.1.0' ],
+668 silly audit   'react-refresh': [ '0.11.0' ],
+668 silly audit   'react-scripts': [ '5.0.1' ],
+668 silly audit   'read-cache': [ '1.0.0' ],
+668 silly audit   readdirp: [ '3.6.0' ],
+668 silly audit   'recursive-readdir': [ '2.2.3' ],
+668 silly audit   redent: [ '3.0.0' ],
+668 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+668 silly audit   regenerate: [ '1.4.2' ],
+668 silly audit   'regenerate-unicode-properties': [ '10.2.0' ],
+668 silly audit   'regenerator-runtime': [ '0.13.11' ],
+668 silly audit   'regex-parser': [ '2.3.1' ],
+668 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+668 silly audit   'regexpu-core': [ '6.2.0' ],
+668 silly audit   regjsgen: [ '0.8.0' ],
+668 silly audit   regjsparser: [ '0.12.0' ],
+668 silly audit   relateurl: [ '0.2.7' ],
+668 silly audit   renderkid: [ '3.0.0' ],
+668 silly audit   'require-directory': [ '2.1.1' ],
+668 silly audit   'require-from-string': [ '2.0.2' ],
+668 silly audit   'requires-port': [ '1.0.0' ],
+668 silly audit   'resolve-cwd': [ '3.0.0' ],
+668 silly audit   'resolve-url-loader': [ '4.0.0' ],
+668 silly audit   'resolve.exports': [ '1.1.1' ],
+668 silly audit   retry: [ '0.13.1' ],
+668 silly audit   reusify: [ '1.1.0' ],
+668 silly audit   rimraf: [ '3.0.2' ],
+668 silly audit   rollup: [ '2.79.2' ],
+668 silly audit   'rollup-plugin-terser': [ '7.0.2' ],
+668 silly audit   'serialize-javascript': [ '4.0.0', '6.0.2' ],
+668 silly audit   'run-parallel': [ '1.2.0' ],
+668 silly audit   'safe-array-concat': [ '1.1.3' ],
+668 silly audit   'safe-push-apply': [ '1.0.0' ],
+668 silly audit   'safe-regex-test': [ '1.1.0' ],
+668 silly audit   'safer-buffer': [ '2.1.2' ],
+668 silly audit   'sanitize.css': [ '13.0.0' ],
+668 silly audit   'sass-loader': [ '12.6.0' ],
+668 silly audit   sax: [ '1.2.4' ],
+668 silly audit   saxes: [ '5.0.1' ],
+668 silly audit   scheduler: [ '0.23.2' ],
+668 silly audit   'select-hose': [ '2.0.0' ],
+668 silly audit   selfsigned: [ '2.4.1' ],
+668 silly audit   send: [ '0.19.0' ],
+668 silly audit   'serve-index': [ '1.9.1' ],
+668 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+668 silly audit   statuses: [ '1.5.0', '2.0.1' ],
+668 silly audit   'serve-static': [ '1.16.2' ],
+668 silly audit   'set-function-length': [ '1.2.2' ],
+668 silly audit   'set-function-name': [ '2.0.2' ],
+668 silly audit   'set-proto': [ '1.0.0' ],
+668 silly audit   shallowequal: [ '1.1.0' ],
+668 silly audit   'shebang-command': [ '2.0.0' ],
+668 silly audit   'shebang-regex': [ '3.0.0' ],
+668 silly audit   'shell-quote': [ '1.8.2' ],
+668 silly audit   'side-channel': [ '1.1.0' ],
+668 silly audit   'side-channel-list': [ '1.0.0' ],
+668 silly audit   'side-channel-map': [ '1.0.1' ],
+668 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+668 silly audit   sisteransi: [ '1.0.5' ],
+668 silly audit   sockjs: [ '0.3.24' ],
+668 silly audit   'source-list-map': [ '2.0.1' ],
+668 silly audit   'source-map-js': [ '1.2.1' ],
+668 silly audit   'source-map-loader': [ '3.0.2' ],
+668 silly audit   'source-map-support': [ '0.5.21' ],
+668 silly audit   'sourcemap-codec': [ '1.4.8' ],
+668 silly audit   spdy: [ '4.0.2' ],
+668 silly audit   'spdy-transport': [ '3.0.0' ],
+668 silly audit   'sprintf-js': [ '1.0.3' ],
+668 silly audit   stable: [ '0.1.8' ],
+668 silly audit   'stack-utils': [ '2.0.6' ],
+668 silly audit   stackframe: [ '1.3.4' ],
+668 silly audit   'static-eval': [ '2.0.2' ],
+668 silly audit   'type-check': [ '0.3.2', '0.4.0' ],
+668 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+668 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+668 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+668 silly audit   'string.prototype.trim': [ '1.2.10' ],
+668 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+668 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+668 silly audit   'stringify-object': [ '3.3.0' ],
+668 silly audit   'strip-bom': [ '4.0.0', '3.0.0' ],
+668 silly audit   'strip-comments': [ '2.0.1' ],
+668 silly audit   'strip-final-newline': [ '2.0.0' ],
+668 silly audit   'strip-indent': [ '3.0.0' ],
+668 silly audit   'strip-json-comments': [ '3.1.1' ],
+668 silly audit   'style-loader': [ '3.3.4' ],
+668 silly audit   'styled-components': [ '6.1.18' ],
+668 silly audit   tslib: [ '2.6.2', '2.8.1', '1.14.1' ],
+668 silly audit   stylehacks: [ '5.1.1' ],
+668 silly audit   stylis: [ '4.3.2' ],
+668 silly audit   sucrase: [ '3.35.0' ],
+668 silly audit   'supports-hyperlinks': [ '2.3.0' ],
+668 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+668 silly audit   'svg-parser': [ '2.0.4' ],
+668 silly audit   'symbol-tree': [ '3.2.4' ],
+668 silly audit   synckit: [ '0.11.6' ],
+668 silly audit   tailwindcss: [ '3.4.17' ],
+668 silly audit   'temp-dir': [ '2.0.0' ],
+668 silly audit   tempy: [ '0.6.0' ],
+668 silly audit   'terminal-link': [ '2.1.1' ],
+668 silly audit   terser: [ '5.40.0' ],
+668 silly audit   'terser-webpack-plugin': [ '5.3.14' ],
+668 silly audit   'test-exclude': [ '6.0.0' ],
+668 silly audit   'text-table': [ '0.2.0' ],
+668 silly audit   thenify: [ '3.3.1' ],
+668 silly audit   'thenify-all': [ '1.6.0' ],
+668 silly audit   throat: [ '6.0.2' ],
+668 silly audit   thunky: [ '1.1.0' ],
+668 silly audit   tmpl: [ '1.0.5' ],
+668 silly audit   'to-regex-range': [ '5.0.1' ],
+668 silly audit   toidentifier: [ '1.0.1' ],
+668 silly audit   'tough-cookie': [ '4.1.4' ],
+668 silly audit   universalify: [ '0.2.0', '2.0.1' ],
+668 silly audit   tr46: [ '2.1.0', '1.0.1' ],
+668 silly audit   tryer: [ '1.0.1' ],
+668 silly audit   'ts-interface-checker': [ '0.1.13' ],
+668 silly audit   'type-detect': [ '4.0.8' ],
+668 silly audit   'type-is': [ '1.6.18' ],
+668 silly audit   'typed-array-buffer': [ '1.0.3' ],
+668 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+668 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+668 silly audit   'typed-array-length': [ '1.0.7' ],
+668 silly audit   'typedarray-to-buffer': [ '3.1.5' ],
+668 silly audit   typescript: [ '4.9.5' ],
+668 silly audit   'unbox-primitive': [ '1.1.0' ],
+668 silly audit   underscore: [ '1.12.1' ],
+668 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.1' ],
+668 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+668 silly audit   'unicode-match-property-value-ecmascript': [ '2.2.0' ],
+668 silly audit   'unicode-property-aliases-ecmascript': [ '2.1.0' ],
+668 silly audit   'unique-string': [ '2.0.0' ],
+668 silly audit   unpipe: [ '1.0.0' ],
+668 silly audit   unquote: [ '1.1.1' ],
+668 silly audit   upath: [ '1.2.0' ],
+668 silly audit   'update-browserslist-db': [ '1.1.3' ],
+668 silly audit   'uri-js': [ '4.4.1' ],
+668 silly audit   'url-parse': [ '1.5.10' ],
+668 silly audit   'util-deprecate': [ '1.0.2' ],
+668 silly audit   'util.promisify': [ '1.0.1' ],
+668 silly audit   utila: [ '0.4.0' ],
+668 silly audit   'utils-merge': [ '1.0.1' ],
+668 silly audit   uuid: [ '8.3.2' ],
+668 silly audit   'v8-to-istanbul': [ '8.1.1' ],
+668 silly audit   vary: [ '1.1.2' ],
+668 silly audit   'w3c-hr-time': [ '1.0.2' ],
+668 silly audit   'w3c-xmlserializer': [ '2.0.0' ],
+668 silly audit   walker: [ '1.0.8' ],
+668 silly audit   watchpack: [ '2.4.4' ],
+668 silly audit   wbuf: [ '1.7.3' ],
+668 silly audit   'web-vitals': [ '2.1.4' ],
+668 silly audit   webpack: [ '5.99.9' ],
+668 silly audit   'webpack-dev-middleware': [ '5.3.4' ],
+668 silly audit   'webpack-dev-server': [ '4.15.2' ],
+668 silly audit   ws: [ '8.18.2', '7.5.10' ],
+668 silly audit   'webpack-manifest-plugin': [ '4.1.1' ],
+668 silly audit   'webpack-sources': [ '2.3.1', '3.3.0', '1.4.3' ],
+668 silly audit   'websocket-driver': [ '0.7.4' ],
+668 silly audit   'websocket-extensions': [ '0.1.4' ],
+668 silly audit   'whatwg-encoding': [ '1.0.5' ],
+668 silly audit   'whatwg-fetch': [ '3.6.20' ],
+668 silly audit   'whatwg-mimetype': [ '2.3.0' ],
+668 silly audit   'whatwg-url': [ '8.7.0', '7.1.0' ],
+668 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+668 silly audit   'which-builtin-type': [ '1.2.1' ],
+668 silly audit   'which-collection': [ '1.0.2' ],
+668 silly audit   'which-typed-array': [ '1.1.19' ],
+668 silly audit   'word-wrap': [ '1.2.5' ],
+668 silly audit   'workbox-background-sync': [ '6.6.0' ],
+668 silly audit   'workbox-broadcast-update': [ '6.6.0' ],
+668 silly audit   'workbox-build': [ '6.6.0' ],
+668 silly audit   '@apideck/better-ajv-errors': [ '0.3.6' ],
+668 silly audit   'workbox-cacheable-response': [ '6.6.0' ],
+668 silly audit   'workbox-core': [ '6.6.0' ],
+668 silly audit   'workbox-expiration': [ '6.6.0' ],
+668 silly audit   'workbox-google-analytics': [ '6.6.0' ],
+668 silly audit   'workbox-navigation-preload': [ '6.6.0' ],
+668 silly audit   'workbox-precaching': [ '6.6.0' ],
+668 silly audit   'workbox-range-requests': [ '6.6.0' ],
+668 silly audit   'workbox-recipes': [ '6.6.0' ],
+668 silly audit   'workbox-routing': [ '6.6.0' ],
+668 silly audit   'workbox-strategies': [ '6.6.0' ],
+668 silly audit   'workbox-streams': [ '6.6.0' ],
+668 silly audit   'workbox-sw': [ '6.6.0' ],
+668 silly audit   'workbox-webpack-plugin': [ '6.6.0' ],
+668 silly audit   'workbox-window': [ '6.6.0' ],
+668 silly audit   wrappy: [ '1.0.2' ],
+668 silly audit   'write-file-atomic': [ '3.0.3' ],
+668 silly audit   'xml-name-validator': [ '3.0.0' ],
+668 silly audit   xmlchars: [ '2.2.0' ],
+668 silly audit   y18n: [ '5.0.8' ],
+668 silly audit   yallist: [ '3.1.1' ],
+668 silly audit   yargs: [ '16.2.0' ],
+668 silly audit   'yargs-parser': [ '20.2.9' ],
+668 silly audit   'yocto-queue': [ '0.1.0' ],
+668 silly audit   '@typescript-eslint/eslint-plugin': [ '8.33.0', '5.62.0' ],
+668 silly audit   '@typescript-eslint/parser': [ '8.33.0', '5.62.0' ],
+668 silly audit   eslint: [ '8.57.1' ],
+668 silly audit   'eslint-config-prettier': [ '10.1.5' ],
+668 silly audit   'eslint-plugin-prettier': [ '5.4.0' ],
+668 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+668 silly audit   doctrine: [ '2.1.0', '3.0.0' ],
+668 silly audit   'eslint-plugin-react-hooks': [ '5.2.0', '4.6.2' ],
+668 silly audit   prettier: [ '3.5.3' ],
+668 silly audit   '@typescript-eslint/scope-manager': [ '8.33.0', '5.62.0' ],
+668 silly audit   '@typescript-eslint/type-utils': [ '8.33.0', '5.62.0' ],
+668 silly audit   '@typescript-eslint/utils': [ '8.33.0', '5.62.0' ],
+668 silly audit   'ts-api-utils': [ '2.1.0' ],
+668 silly audit   '@typescript-eslint/typescript-estree': [ '8.33.0', '5.62.0' ],
+668 silly audit   '@typescript-eslint/project-service': [ '8.33.0' ],
+668 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.33.0' ],
+668 silly audit   'eslint-config-react-app': [ '7.0.1' ],
+668 silly audit   'eslint-webpack-plugin': [ '3.2.0' ],
+668 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+668 silly audit   '@eslint/js': [ '8.57.1' ],
+668 silly audit   '@humanwhocodes/config-array': [ '0.13.0' ],
+668 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+668 silly audit   espree: [ '9.6.1' ],
+668 silly audit   'file-entry-cache': [ '6.0.1' ],
+668 silly audit   'is-path-inside': [ '3.0.3' ],
+668 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+668 silly audit   '@babel/eslint-parser': [ '7.27.1' ],
+668 silly audit   '@rushstack/eslint-patch': [ '1.11.0' ],
+668 silly audit   'confusing-browser-globals': [ '1.0.11' ],
+668 silly audit   'eslint-plugin-flowtype': [ '8.0.3' ],
+668 silly audit   'eslint-plugin-import': [ '2.31.0' ],
+668 silly audit   'eslint-plugin-jest': [ '25.7.0' ],
+668 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+668 silly audit   'eslint-plugin-testing-library': [ '5.11.1' ],
+668 silly audit   '@nicolo-ribaudo/eslint-scope-5-internals': [ '5.1.1-v1' ],
+668 silly audit   'string-natural-compare': [ '3.0.1' ],
+668 silly audit   '@rtsao/scc': [ '1.1.0' ],
+668 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+668 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+668 silly audit   'eslint-module-utils': [ '2.12.0' ],
+668 silly audit   'object.groupby': [ '1.0.3' ],
+668 silly audit   'tsconfig-paths': [ '3.15.0' ],
+668 silly audit   'ast-types-flow': [ '0.0.8' ],
+668 silly audit   'axe-core': [ '4.10.3' ],
+668 silly audit   'axobject-query': [ '4.1.0' ],
+668 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+668 silly audit   'language-tags': [ '1.0.9' ],
+668 silly audit   'string.prototype.includes': [ '2.0.1' ],
+668 silly audit   'acorn-jsx': [ '5.3.2' ],
+668 silly audit   'flat-cache': [ '3.2.0' ],
+668 silly audit   flatted: [ '3.3.3' ],
+668 silly audit   keyv: [ '4.5.4' ],
+668 silly audit   'json-buffer': [ '3.0.1' ],
+668 silly audit   'language-subtag-registry': [ '0.3.23' ],
+668 silly audit   '@types/json5': [ '0.0.29' ],
+668 silly audit   'natural-compare-lite': [ '1.4.0' ],
+668 silly audit   tsutils: [ '3.21.0' ],
+668 silly audit   '@types/semver': [ '7.7.0' ],
+668 silly audit   '@typescript-eslint/experimental-utils': [ '5.62.0' ]
+668 silly audit }
+669 verbose reify failed optional dependency C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\node_modules\fsevents
+670 silly reify mark deleted [
+670 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\PROJETO\\portfolio\\node_modules\\fsevents'
+670 silly reify ]
+671 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.33.0.tgz 0ms (cache hit)
+672 http cache globals@https://registry.npmjs.org/globals/-/globals-13.24.0.tgz 0ms (cache hit)
+673 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz 0ms (cache hit)
+674 http cache @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz 0ms (cache hit)
+675 http cache @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.33.0.tgz 0ms (cache hit)
+676 http cache ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.1.0.tgz 0ms (cache hit)
+677 http cache @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.33.0.tgz 0ms (cache hit)
+678 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 0ms (cache hit)
+679 http cache eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz 0ms (cache hit)
+680 http cache estraverse@https://registry.npmjs.org/estraverse/-/estraverse-4.3.0.tgz 0ms (cache hit)
+681 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.62.0.tgz 0ms (cache hit)
+682 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz 0ms (cache hit)
+683 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.62.0.tgz 0ms (cache hit)
+684 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-5.62.0.tgz 0ms (cache hit)
+685 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-5.62.0.tgz 0ms (cache hit)
+686 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.62.0.tgz 0ms (cache hit)
+687 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz 0ms (cache hit)
+688 http cache estraverse@https://registry.npmjs.org/estraverse/-/estraverse-4.3.0.tgz 0ms (cache hit)
+689 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.62.0.tgz 0ms (cache hit)
+690 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.62.0.tgz 0ms (cache hit)
+691 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 0ms (cache hit)
+692 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-5.62.0.tgz 0ms (cache hit)
+693 http cache @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-5.62.0.tgz 0ms (cache hit)
+694 http cache eslint-plugin-jest@https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-25.7.0.tgz 0ms (cache hit)
+695 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-5.62.0.tgz 0ms (cache hit)
+696 http cache @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.62.0.tgz 0ms (cache hit)
+697 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.62.0.tgz 0ms (cache hit)
+698 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.33.0.tgz 0ms (cache hit)
+699 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.2.0.tgz 0ms (cache hit)
+700 http cache @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.62.0.tgz 0ms (cache hit)
+701 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.33.0.tgz 0ms (cache hit)
+702 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz 0ms (cache hit)
+703 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz 0ms (cache hit)
+704 http cache @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.33.0.tgz 0ms (cache hit)
+705 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.33.0.tgz 0ms (cache hit)
+706 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.33.0.tgz 0ms (cache hit)
+707 http cache @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.33.0.tgz 0ms (cache hit)
+708 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.62.0.tgz 0ms (cache hit)
+709 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 0ms (cache hit)
+710 http cache estraverse@https://registry.npmjs.org/estraverse/-/estraverse-4.3.0.tgz 0ms (cache hit)
+711 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz 0ms (cache hit)
+712 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.62.0.tgz 0ms (cache hit)
+713 http cache @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.33.0.tgz 0ms (cache hit)
+714 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-5.62.0.tgz 0ms (cache hit)
+715 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-5.62.0.tgz 0ms (cache hit)
+716 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.62.0.tgz 0ms (cache hit)
+717 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-7.0.4.tgz 0ms (cache hit)
+718 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 358ms
+719 silly audit report {
+719 silly audit report   'nth-check': [
+719 silly audit report     {
+719 silly audit report       id: 1095141,
+719 silly audit report       url: 'https://github.com/advisories/GHSA-rp65-9cf3-cjxr',
+719 silly audit report       title: 'Inefficient Regular Expression Complexity in nth-check',
+719 silly audit report       severity: 'high',
+719 silly audit report       vulnerable_versions: '<2.0.1',
+719 silly audit report       cwe: [Array],
+719 silly audit report       cvss: [Object]
+719 silly audit report     }
+719 silly audit report   ],
+719 silly audit report   postcss: [
+719 silly audit report     {
+719 silly audit report       id: 1094544,
+719 silly audit report       url: 'https://github.com/advisories/GHSA-7fh5-64p2-3v2j',
+719 silly audit report       title: 'PostCSS line return parsing error',
+719 silly audit report       severity: 'moderate',
+719 silly audit report       vulnerable_versions: '<8.4.31',
+719 silly audit report       cwe: [Array],
+719 silly audit report       cvss: [Object]
+719 silly audit report     }
+719 silly audit report   ]
+719 silly audit report }
+720 silly packumentCache corgi:https://registry.npmjs.org/nth-check cache-miss
+721 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+722 http cache https://registry.npmjs.org/nth-check 61ms (cache hit)
+723 silly packumentCache corgi:https://registry.npmjs.org/nth-check set size:10078 disposed:false
+724 http cache https://registry.npmjs.org/postcss 64ms (cache hit)
+725 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:335447 disposed:false
+726 silly packumentCache corgi:https://registry.npmjs.org/css-select cache-miss
+727 http cache https://registry.npmjs.org/css-select 50ms (cache hit)
+728 silly packumentCache corgi:https://registry.npmjs.org/css-select set size:44393 disposed:false
+729 silly packumentCache corgi:https://registry.npmjs.org/resolve-url-loader cache-miss
+730 http cache https://registry.npmjs.org/resolve-url-loader 41ms (cache hit)
+731 silly packumentCache corgi:https://registry.npmjs.org/resolve-url-loader set size:61938 disposed:false
+732 silly packumentCache corgi:https://registry.npmjs.org/svgo cache-miss
+733 http cache https://registry.npmjs.org/svgo 40ms (cache hit)
+734 silly packumentCache corgi:https://registry.npmjs.org/svgo set size:130427 disposed:false
+735 silly packumentCache corgi:https://registry.npmjs.org/react-scripts cache-miss
+736 http cache https://registry.npmjs.org/react-scripts 35ms (cache hit)
+737 silly packumentCache corgi:https://registry.npmjs.org/react-scripts set size:342451 disposed:false
+738 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fplugin-svgo cache-miss
+739 http cache https://registry.npmjs.org/@svgr%2fplugin-svgo 33ms (cache hit)
+740 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fplugin-svgo set size:36570 disposed:false
+741 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fwebpack cache-miss
+742 http cache https://registry.npmjs.org/@svgr%2fwebpack 32ms (cache hit)
+743 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fwebpack set size:85201 disposed:false
+744 silly ADD node_modules/globals
+745 silly ADD node_modules/globals/node_modules/type-fest
+746 silly ADD node_modules/@eslint/js
+747 silly ADD node_modules/@typescript-eslint/tsconfig-utils
+748 silly ADD node_modules/@typescript-eslint/project-service
+749 silly ADD node_modules/ts-api-utils
+750 silly ADD node_modules/eslint-plugin-react-hooks
+751 silly ADD
+752 silly ADD node_modules/eslint-plugin-testing-library/node_modules/estraverse
+753 silly ADD node_modules/eslint-plugin-testing-library/node_modules/@typescript-eslint/visitor-keys
+754 silly ADD node_modules/eslint-plugin-testing-library/node_modules/semver
+755 silly ADD node_modules/eslint-plugin-testing-library/node_modules/eslint-scope
+756 silly ADD node_modules/eslint-plugin-testing-library/node_modules/@typescript-eslint/typescript-estree
+757 silly ADD node_modules/eslint-plugin-testing-library/node_modules/@typescript-eslint/types
+758 silly ADD node_modules/eslint-plugin-testing-library/node_modules/@typescript-eslint/scope-manager
+759 silly ADD node_modules/eslint-plugin-testing-library/node_modules/@typescript-eslint/utils
+760 silly REMOVE node_modules/eslint-plugin-jest
+761 silly ADD node_modules/eslint-config-react-app/node_modules/estraverse
+762 silly ADD node_modules/eslint-config-react-app/node_modules/eslint-scope
+763 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/visitor-keys
+764 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/typescript-estree
+765 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/types
+766 silly ADD node_modules/eslint-config-react-app/node_modules/semver
+767 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/utils
+768 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/type-utils
+769 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/scope-manager
+770 silly ADD node_modules/eslint-config-react-app/node_modules/eslint-plugin-jest
+771 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/parser
+772 silly ADD node_modules/eslint-config-react-app/node_modules/@typescript-eslint/eslint-plugin
+773 silly REMOVE node_modules/eslint/node_modules/type-fest
+774 silly REMOVE node_modules/eslint/node_modules/globals
+775 silly REMOVE node_modules/eslint/node_modules/@eslint/js
+776 silly CHANGE node_modules/@typescript-eslint/visitor-keys
+777 silly ADD node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys
+778 silly CHANGE node_modules/@typescript-eslint/utils
+779 silly REMOVE node_modules/@typescript-eslint/utils/node_modules/semver
+780 silly REMOVE node_modules/@typescript-eslint/utils/node_modules/estraverse
+781 silly REMOVE node_modules/@typescript-eslint/utils/node_modules/eslint-scope
+782 silly CHANGE node_modules/@typescript-eslint/typescript-estree
+783 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+784 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+785 silly CHANGE node_modules/@typescript-eslint/types
+786 silly CHANGE node_modules/@typescript-eslint/type-utils
+787 silly CHANGE node_modules/@typescript-eslint/scope-manager
+788 silly CHANGE node_modules/@typescript-eslint/parser
+789 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/estraverse
+790 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/visitor-keys
+791 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/semver
+792 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/eslint-scope
+793 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/typescript-estree
+794 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/types
+795 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager
+796 silly ADD node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/utils
+797 silly CHANGE node_modules/@typescript-eslint/eslint-plugin
+798 silly ADD node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore
+799 silly REMOVE node_modules/@typescript-eslint/eslint-plugin/node_modules/semver
+800 silly REMOVE node_modules/@eslint/eslintrc/node_modules/type-fest
+801 silly REMOVE node_modules/@eslint/eslintrc/node_modules/globals
+802 verbose cwd C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio
+803 verbose os Windows_NT 10.0.19045
+804 verbose node v22.15.1
+805 verbose npm  v10.9.2
+806 verbose exit 0
+807 info ok

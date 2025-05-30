@@ -1,0 +1,116 @@
+0 verbose cli C:\Program Files\node.exe C:\Program Files\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.1
+3 silly config load:file:C:\Program Files\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin
+8 verbose argv "install" "--save-dev" "eslint" "prettier" "eslint-plugin-prettier" "eslint-config-prettier" "eslint-plugin-react" "eslint-plugin-react-hooks" "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin"
+9 verbose logfile logs-max:10 dir:C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-05-30T00_15_19_574Z-
+10 verbose logfile C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-05-30T00_15_19_574Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest eslint-config-prettier@^10.1.5
+16 silly packumentCache full:https://registry.npmjs.org/eslint-config-prettier cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/eslint-config-prettier 808ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/eslint-config-prettier set size:258499 disposed:false
+19 silly fetch manifest eslint@*
+20 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/eslint 87ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/eslint set size:1776716 disposed:false
+23 silly fetch manifest jiti@*
+24 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/jiti 126ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/jiti set size:363881 disposed:false
+27 silly fetch manifest eslint-plugin-prettier@^5.4.0
+28 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-prettier cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-prettier 142ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-prettier set size:163998 disposed:false
+31 silly fetch manifest @types/eslint@>=8.0.0
+32 silly packumentCache full:https://registry.npmjs.org/@types%2feslint cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@types%2feslint 865ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2feslint set size:220085 disposed:false
+35 silly fetch manifest prettier@3.5.3
+36 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/prettier 139ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/prettier set size:587815 disposed:false
+39 silly fetch manifest eslint-plugin-react@*
+40 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react cache-miss
+41 http cache https://registry.npmjs.org/eslint-plugin-react 12ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react set size:646827 disposed:false
+43 silly fetch manifest eslint-plugin-react-hooks@*
+44 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks cache-miss
+45 http cache https://registry.npmjs.org/eslint-plugin-react-hooks 19ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks set size:6070198 disposed:false
+47 silly fetch manifest @typescript-eslint/parser@*
+48 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+49 http cache https://registry.npmjs.org/@typescript-eslint%2fparser 40ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:13866905 disposed:false
+51 silly fetch manifest typescript@^4.9.5
+52 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+53 http cache https://registry.npmjs.org/typescript 36ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/typescript set size:14238092 disposed:false
+55 silly fetch manifest @typescript-eslint/eslint-plugin@*
+56 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+57 http cache https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 36ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:16112527 disposed:false
+59 verbose stack Error: could not resolve
+59 verbose stack     at PlaceDep.failPeerConflict (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:503:25)
+59 verbose stack     at new PlaceDep (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:157:21)
+59 verbose stack     at #buildDepStep (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:920:18)
+59 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+59 verbose stack     at async Promise.all (index 1)
+59 verbose stack     at async Arborist.reify (C:\Program Files\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+59 verbose stack     at async Install.exec (C:\Program Files\node_modules\npm\lib\commands\install.js:150:5)
+59 verbose stack     at async Npm.exec (C:\Program Files\node_modules\npm\lib\npm.js:207:9)
+59 verbose stack     at async module.exports (C:\Program Files\node_modules\npm\lib\cli\entry.js:74:5)
+60 error code ERESOLVE
+61 error ERESOLVE could not resolve
+62 error
+63 error While resolving: portfolio@0.1.0
+63 error Found: @typescript-eslint/eslint-plugin@5.62.0[2m[22m
+63 error [2mnode_modules/@typescript-eslint/eslint-plugin[22m
+63 error   @typescript-eslint/eslint-plugin@"^5.5.0" from eslint-config-react-app@7.0.1[2m[22m
+63 error   [2mnode_modules/eslint-config-react-app[22m
+63 error     eslint-config-react-app@"^7.0.1" from react-scripts@5.0.1[2m[22m
+63 error     [2mnode_modules/react-scripts[22m
+63 error       react-scripts@"^5.0.1" from the root project
+63 error   peerOptional @typescript-eslint/eslint-plugin@"^4.0.0 || ^5.0.0" from eslint-plugin-jest@25.7.0[2m[22m
+63 error   [2mnode_modules/eslint-plugin-jest[22m
+63 error     eslint-plugin-jest@"^25.3.0" from eslint-config-react-app@7.0.1[2m[22m
+63 error     [2mnode_modules/eslint-config-react-app[22m
+63 error       eslint-config-react-app@"^7.0.1" from react-scripts@5.0.1[2m[22m
+63 error       [2mnode_modules/react-scripts[22m
+63 error         react-scripts@"^5.0.1" from the root project
+63 error   1 more (the root project)
+63 error
+63 error Could not resolve dependency:
+63 error [34mdev[39m @typescript-eslint/eslint-plugin@"*" from the root project
+63 error
+63 error Conflicting peer dependency: @typescript-eslint/parser@8.33.0[2m[22m
+63 error [2mnode_modules/@typescript-eslint/parser[22m
+63 error   [95mpeer[39m @typescript-eslint/parser@"^8.33.0" from @typescript-eslint/eslint-plugin@8.33.0[2m[22m
+63 error   [2mnode_modules/@typescript-eslint/eslint-plugin[22m
+63 error     [34mdev[39m @typescript-eslint/eslint-plugin@"*" from the root project
+63 error
+63 error Fix the upstream dependency conflict, or retry
+63 error this command with --force or --legacy-peer-deps
+63 error to accept an incorrect (and potentially broken) dependency resolution.
+64 error
+64 error
+64 error For a full report see:
+64 error C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-05-30T00_15_19_574Z-eresolve-report.txt
+65 silly unfinished npm timer reify 1748564120273
+66 silly unfinished npm timer reify:loadTrees 1748564120276
+67 silly unfinished npm timer idealTree:buildDeps 1748564120939
+68 silly unfinished npm timer idealTree:#root 1748564120940
+69 verbose cwd C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio
+70 verbose os Windows_NT 10.0.19045
+71 verbose node v22.15.1
+72 verbose npm  v10.9.2
+73 verbose exit 1
+74 verbose code 1
+75 error A complete log of this run can be found in: C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\PROJETO\portfolio\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-05-30T00_15_19_574Z-debug-0.log
