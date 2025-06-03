@@ -1,11 +1,10 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components'
 
 const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    list-style: none;
   }
 
   body {
@@ -16,9 +15,9 @@ const EstiloGlobal = createGlobalStyle`
       padding-top: 16px;
     }
   }
-`;
+`
 
-export default EstiloGlobal;
+export default EstiloGlobal
 
 export const Container = styled.div`
   max-width: 1024px;
@@ -32,4 +31,8 @@ export const Container = styled.div`
     max-width: 80%;
     display: block;
   }
-`;
+
+  img {
+    max-width: 100%;
+  }
+`
